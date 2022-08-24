@@ -1,0 +1,23 @@
+:root {
+  --text-align: red;
+}
+.title {
+  color: var(--text-align);
+  font-size: 20px;
+}
+.bien {
+  color: blue;
+}
+.chuthich {
+  color: green;
+}
+.bai-06 .asd {
+  color: red;
+}
+.bai-07 p {
+  font-family: "Courier New", Courier, monospace;
+}
+.bai-09 .title h1,
+p {
+  text-align: right;
+}

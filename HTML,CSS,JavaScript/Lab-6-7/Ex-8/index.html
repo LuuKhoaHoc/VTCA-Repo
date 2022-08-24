@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Lưu Khoa Học" />
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css" />
+    <script
+      src="https://kit.fontawesome.com/65ca83241b.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/index.js"></script>
+    <title>Ex-8</title>
+  </head>
+  <body>
+    <div id="main">
+      <h1>Đăng nhập bằng email</h1>
+      <p>&nbsp;Nhập email và mật khẩu tài khoản Tiki</p>
+      <div id="content">
+        <form action="">
+          <input
+            type="text"
+            name="email"
+            placeholder="acb@email.com"
+            id="email"
+          />
+          <br />
+          <input
+            type="password"
+            name="password"
+            placeholder="Mật khẩu"
+            id="password"
+          />
+          <span type="button" id="eyes" onclick="onEyes()"
+            ><i class="fa-solid fa-eye-slash"></i
+          ></span>
+        </form>
+        <div id="button">
+          <input type="button" value="Đăng nhập" id="login" />
+        </div>
+        <div id="aside">
+          <a href="#">Quên mật khẩu?</a> <br />
+          <span>Chưa có tài khoản?</span>
+          <span><a href="#">Tạo tài khoản.</a></span>
+        </div>
+      </div>
+
+      <div id="banner"></div>
+
+      <div id="footer">
+        <p>Copyright © 2020 by Tiki</p>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Sap-xep-lop/1.0.0": {
+        "runtime": {
+          "Sap-xep-lop.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Sap-xep-lop/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

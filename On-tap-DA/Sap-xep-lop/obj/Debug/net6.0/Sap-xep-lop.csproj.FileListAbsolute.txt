@@ -1,0 +1,15 @@
+D:\Workspace\VTCA\On-tap-DA\Sap-xep-lop\bin\Debug\net6.0\Sap-xep-lop.exe
+D:\Workspace\VTCA\On-tap-DA\Sap-xep-lop\bin\Debug\net6.0\Sap-xep-lop.deps.json
+D:\Workspace\VTCA\On-tap-DA\Sap-xep-lop\bin\Debug\net6.0\Sap-xep-lop.runtimeconfig.json
+D:\Workspace\VTCA\On-tap-DA\Sap-xep-lop\bin\Debug\net6.0\Sap-xep-lop.dll
+D:\Workspace\VTCA\On-tap-DA\Sap-xep-lop\bin\Debug\net6.0\ref\Sap-xep-lop.dll
+D:\Workspace\VTCA\On-tap-DA\Sap-xep-lop\bin\Debug\net6.0\Sap-xep-lop.pdb
+D:\Workspace\VTCA\On-tap-DA\Sap-xep-lop\obj\Debug\net6.0\Sap-xep-lop.csproj.AssemblyReference.cache
+D:\Workspace\VTCA\On-tap-DA\Sap-xep-lop\obj\Debug\net6.0\Sap-xep-lop.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\VTCA\On-tap-DA\Sap-xep-lop\obj\Debug\net6.0\Sap-xep-lop.AssemblyInfoInputs.cache
+D:\Workspace\VTCA\On-tap-DA\Sap-xep-lop\obj\Debug\net6.0\Sap-xep-lop.AssemblyInfo.cs
+D:\Workspace\VTCA\On-tap-DA\Sap-xep-lop\obj\Debug\net6.0\Sap-xep-lop.csproj.CoreCompileInputs.cache
+D:\Workspace\VTCA\On-tap-DA\Sap-xep-lop\obj\Debug\net6.0\Sap-xep-lop.dll
+D:\Workspace\VTCA\On-tap-DA\Sap-xep-lop\obj\Debug\net6.0\ref\Sap-xep-lop.dll
+D:\Workspace\VTCA\On-tap-DA\Sap-xep-lop\obj\Debug\net6.0\Sap-xep-lop.pdb
+D:\Workspace\VTCA\On-tap-DA\Sap-xep-lop\obj\Debug\net6.0\Sap-xep-lop.genruntimeconfig.cache

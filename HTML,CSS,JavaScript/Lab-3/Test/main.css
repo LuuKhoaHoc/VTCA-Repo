@@ -1,0 +1,32 @@
+.container {
+  width: 100%;
+  border: 1px solid #0060ae;
+}
+header,
+footer {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  background-color: #0060ae;
+  padding: 1em;
+  clear: left;
+}
+nav {
+  float: left;
+  max-width: 160px;
+  padding: 1em;
+  margin: 0;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav li a {
+  text-decoration: none;
+}
+article {
+  margin-left: 170px;
+  border-left: 1px solid #0060ae;
+  padding: 1em;
+  overflow: hidden;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Lưu Khoa Học" />
+    <script
+      src="https://kit.fontawesome.com/65ca83241b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./assets/css/style2.css" />
+    <title>Đăng nhập</title>
+  </head>
+  <body>
+    <div id="main">
+      <div id="header">
+        <div id="logo">
+          <a href="index.html">
+            <i class="thc-logo"></i>
+          </a>
+        </div>
+        <div id="search">
+          <form method="get">
+            <input
+              id="search-bar"
+              type="text"
+              name="search"
+              placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Giao gì cũng lẹ, cái gì cũng giao!"
+            />
+            <button type="submit" id="search-btn">
+              <i class="fa fa-search"></i>
+            </button>
+          </form>
+        </div>
+        <div id="cart">
+          <a href="cart.html">
+            <p>
+              Đơn hàng <br />
+              của bạn
+            </p>
+          </a>
+        </div>
+        <div id="gio-hang">
+          <a href="cart.html">
+            <i class="fa-solid fa-basket-shopping"></i>
+            <b style="font-size: 16px">Giỏ Hàng</b>
+          </a>
+        </div>
+      </div>
+
+      <div id="content">
+        <form>
+          <h3 style="font-size: 20px; font-weight: normal; margin-bottom: 30px">
+            Để xem "Đơn hàng của bạn" vui lòng <br />nhập Số điện thoại đã đặt
+            hàng
+          </h3>
+          <div class="text">
+            <p>Số điện thoại <b style="color: red">*</b></p>
+            <span><i class="fa-solid fa-phone"></i></span>
+            <input
+              type="text"
+              name="sđt"
+              id="phone"
+              placeholder="&nbsp; Nhập số điện thoại"
+            />
+          </div>
+          <p id="err"></p>
+          <button type="button" id="next" onclick="checkNum()">Tiếp tục</button>
+          <br />
+        </form>
+        <div class="login">
+          <div class="title1">
+            <p class="tx">Hoặc sử dụng tài khoản</p>
+          </div>
+          <span><i class="fa-brands fa-square-facebook"></i></span>
+          <a class="lg" id="fb" href="https://www.facebook.com">Facebook</a>
+          <span style="left: 13.5%"><i class="fa-brands fa-google"></i></span>
+          <a class="lg" id="gg" href="https://www.google.com">Google</a>
+        </div>
+      </div>
+
+      <div id="footer">
+        <div class="boxfooter">
+          <div class="benefits">
+            <div>
+              <i class="fa-regular fa-clock"></i>
+              <p>
+                Đặt online
+                <b>giao tận giường ĐÚNG GIỜ</b>
+                <br />
+                (Nếu trễ thì thôi)
+              </p>
+            </div>
+            <a
+              href="https://www.w3schools.com/jquery/default.asp"
+              rel="nofollow"
+            >
+              <i class="fa-solid fa-arrow-rotate-left"></i>
+              <p>Đổi, trả sản phẩm <b>trong 3 ngày</b></p>
+            </a>
+          </div>
+        </div>
+        <div class="copyright">
+          Copyright &#169; 2022&#x2013;Lưu Khoa Học <br />
+          Source "Bách Hoá Xanh"
+        </div>
+      </div>
+    </div>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

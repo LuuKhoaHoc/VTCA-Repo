@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Lưu Khoa Học" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Ex-5</title>
+  </head>
+  <body>
+    <h1>Customer Form</h1>
+    <div class="form-group">
+      <form>
+        <div class="Name">
+          <label for="name">Full Name </label>
+          <input
+            type="text"
+            name="name"
+            placeholder="Your full name..."
+            id="name"
+          />
+        </div>
+        <p id="checkName">Please enter your name</p>
+        <div class="Email">
+          <label for="email">Email </label>
+          <input
+            type="text"
+            name="email"
+            placeholder="Your email..."
+            id="email"
+          />
+        </div>
+        <p id="checkMail">Please enter your mail</p>
+        <div class="Phone">
+          <label for="phone">Phone </label>
+          <input
+            type="phone"
+            name="phone"
+            placeholder="Your phone number..."
+            id="phone"
+          />
+        </div>
+        <p id="checkPhone">Please enter your phone</p>
+        <div class="Gender">
+          <label for="gender">Gender </label>
+          <div class="male">
+            <input type="radio" name="gender" id="gender" checked />
+            <label for="Male">Male </label>
+            <input type="radio" name="gender" id="gender" />
+            <label for="Female">Female </label>
+          </div>
+        </div>
+        <div class="Country">
+          <label for="country">Country </label>
+          <select name="country" id="select">
+            <option value="vn">Vietnam</option>
+            <option value="jp">Japan</option>
+            <option value="cn">China</option>
+          </select>
+        </div>
+        <div class="Comment">
+          <label for="comment">Comment </label>
+          <textarea
+            rows="10"
+            cols="70"
+            type="text"
+            name="comment"
+            placeholder="Write something..."
+            id="comment"
+          ></textarea>
+        </div>
+        <div class="Button">
+          <input
+            type="button"
+            onclick="validate()"
+            value="Submit"
+            id="submit"
+          />
+          <input type="reset" value="Reset" id="reset" />
+        </div>
+      </form>
+    </div>
+    <script type="text/javascript" src="./js/index.js"></script>
+  </body>
+</html>

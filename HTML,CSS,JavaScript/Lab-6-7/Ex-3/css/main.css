@@ -1,0 +1,25 @@
+.textbox {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.textbox input {
+  width: 30%;
+  margin: 20px;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+#button {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#button input {
+    
+}

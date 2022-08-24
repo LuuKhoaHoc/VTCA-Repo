@@ -1,0 +1,27 @@
+.container {
+  border: 1px solid #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.title {
+  background-color: green;
+  color: #fff;
+  text-align: left;
+}
+.special {
+  background-color: #f2f2f2;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+table td,
+th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.title th {
+  padding: 10px;
+}

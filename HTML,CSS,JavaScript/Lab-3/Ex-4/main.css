@@ -1,0 +1,99 @@
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+#logo {
+  width: 200px;
+  padding-right: 60%;
+}
+header {
+  width: 94%;
+  height: 50%;
+  padding-bottom: 20px;
+  margin: 1% 3%;
+  display: flex;
+}
+nav a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-top: 5px;
+  padding: 8px;
+  align-items: center;
+  color: black;
+}
+nav a:hover {
+  color: green;
+}
+nav {
+  margin-top: 16px;
+}
+.pic {
+  width: 1000px;
+  margin: 0% 14% 0% 14%;
+  padding-left: 2%;
+  border: 0;
+}
+.main-text.subtitle {
+  font-size: 1.8rem;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 62%;
+  left: 50%;
+}
+.main-text.title1 {
+  font-size: 4rem;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 40%;
+  left: 50%;
+}
+.title {
+  width: 18%;
+  margin-left: 42%;
+  font-size: 2rem;
+  text-align: center;
+}
+.title p {
+  border-bottom: 2px solid green;
+}
+.section-text {
+  display: flex;
+  margin-top: 3%;
+  margin-right: 0%;
+}
+.sub {
+  width: 10%;
+  margin-left: 25%;
+}
+.sub img {
+  margin-left: 30%;
+}
+.sub p {
+  text-align: center;
+  margin-right: 0%;
+}
+.sub2 {
+  width: 10%;
+  margin-left: 10%;
+}
+.sub2 img {
+  margin-left: 30%;
+}
+.sub2 p {
+  text-align: center;
+  margin-right: 0%;
+}
+.sub3 {
+  width: 15%;
+  margin-left: 8%;
+}
+.sub3 img {
+  margin-left: 30%;
+}
+.sub3 p {
+  text-align: center;
+  margin-right: 10%;
+}

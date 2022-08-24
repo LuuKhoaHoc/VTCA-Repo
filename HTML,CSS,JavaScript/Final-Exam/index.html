@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Lưu Khoa Học" />
+    <script
+      src="https://kit.fontawesome.com/65ca83241b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Tạp Hoá Cam - Tạp hoá cho mọi nhà</title>
+  </head>
+  <body>
+    <div id="main">
+      <div id="header">
+        <div id="logo">
+          <a href="index.html">
+            <i class="thc-logo"></i>
+          </a>
+        </div>
+        <div id="search">
+          <form method="get">
+            <input
+              id="search-bar"
+              type="text"
+              name="search"
+              placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Giao gì cũng lẹ, cái gì cũng giao!"
+            />
+            <button type="submit" id="search-btn">
+              <i class="fa fa-search"></i>
+            </button>
+          </form>
+        </div>
+        <div id="cart">
+          <a href="dangnhap.html">
+            <p>
+              Đơn hàng <br />
+              của bạn
+            </p>
+          </a>
+        </div>
+        <div id="gio-hang">
+          <a href="cart.html">
+            <i class="fa-solid fa-basket-shopping"></i>
+            <b style="font-size: 16px">Giỏ Hàng</b>
+          </a>
+        </div>
+      </div>
+
+      <div id="nav">
+        <div id="container">
+          <div id="tagline">
+            <i
+              style="font-size: 20px; line-height: 40px; margin: 0 8px"
+              class="fa-solid fa-bars"
+            ></i>
+            <span>Danh mục sản phẩm</span>
+          </div>
+          <ul>
+            <li>
+              Thịt, cá, trứng, hải sản
+              <span><i id="angle" class="fa-solid fa-angle-down"></i></span>
+            </li>
+            <li>
+              Rau, củ, trái cây
+              <span><i id="angle" class="fa-solid fa-angle-down"></i></span>
+            </li>
+            <li>
+              Thực phẩm đông-mát
+              <span><i id="angle" class="fa-solid fa-angle-down"></i></span>
+            </li>
+            <li>
+              Mì, miến, phở, cháo
+              <span><i id="angle" class="fa-solid fa-angle-down"></i></span>
+            </li>
+            <li>
+              Gạo, bột, đồ khô
+              <span><i id="angle" class="fa-solid fa-angle-down"></i></span>
+            </li>
+            <li>
+              Dầu ăn, nước mắm, gia vị
+              <span><i id="angle" class="fa-solid fa-angle-down"></i></span>
+            </li>
+            <li>
+              Sữa các loại
+              <span><i id="angle" class="fa-solid fa-angle-down"></i></span>
+            </li>
+            <li>
+              Bia, nước giải khát
+              <span><i id="angle" class="fa-solid fa-angle-down"></i></span>
+            </li>
+            <li>
+              Bánh kẹo các loại
+              <span><i id="angle" class="fa-solid fa-angle-down"></i></span>
+            </li>
+            <li>
+              Chăm sóc cá nhân
+              <span><i id="angle" class="fa-solid fa-angle-down"></i></span>
+            </li>
+            <li>
+              Sản phẩm cho mẹ và bé
+              <span><i id="angle" class="fa-solid fa-angle-down"></i></span>
+            </li>
+            <li>
+              Vệ sinh nhà cửa
+              <span><i id="angle" class="fa-solid fa-angle-down"></i></span>
+            </li>
+            <li>
+              Đồ dùng cá nhân
+              <span><i id="angle" class="fa-solid fa-angle-down"></i></span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="slider">
+        <div class="mySlides fade">
+          <img src="./assets/img/slider.jpg" style="width: 100%" />
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./assets/img/slider.jpg" style="width: 100%" />
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./assets/img/slider.jpg" style="width: 100%" />
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <br />
+        <div style="text-align: center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      </div>
+
+      <div id="content">
+        <div id="content-sales-title">
+          <h2>Sản phẩm khuyến mãi</h2>
+        </div>
+        <ul style="flex: 1 100%; clear: both">
+          <li class="product">
+            <a
+              href="#"
+              title="Tã dán Mamamy Ultraflow size M 46 miếng ( cho bé 6 - 11kg)"
+            >
+              <div
+                class="boximg"
+                title="Tã dán Mamamy Ultraflow size M 46 miếng ( cho bé 6 - 11kg"
+              >
+                <img
+                  width="160"
+                  height="160"
+                  src="https://cdn.tgdd.vn/Products/Images/2427/206699/bhx/ta-dan-mamamy-ultraflow-size-m-46-mieng-cho-be-6-11kg-202205191123309087_300x300.jpg"
+                  alt="Tã dán Mamamy Ultraflow size M 46 miếng (cho bé 6 - 11kg)"
+                />
+              </div>
+              <h3 class="product-name">
+                Tã dán Mamamy Ultraflow size M 46 miếng
+              </h3>
+              <div class="price">
+                <strike>454.000₫</strike>&nbsp; <b>354.000₫</b>
+              </div>
+            </a>
+            <a class="buy" href="#">Chọn mua</a>
+          </li>
+
+          <li class="product pd1">
+            <a
+              href="#"
+              title="Tã dán Mamamy Ultraflow size XL 32 miếng ( cho bé 12 - 17kg)"
+            >
+              <div
+                class="boximg"
+                title="Tã dán Mamamy Ultraflow size XL 32 miếng ( cho bé 12 - 17kg)"
+              >
+                <img
+                  width="160"
+                  height="160"
+                  src="https://cdn.tgdd.vn/Products/Images/2427/206689/bhx/ta-dan-mamamy-ultraflow-size-xl-36-mieng-cho-be-12-17kg-202205191120261287_300x300.jpg"
+                  alt="Tã dán Mamamy Ultraflow size XL 36 miếng (cho bé 12 - 17kg)"
+                />
+              </div>
+              <h3 class="product-name">
+                Tã dán Mamamy Ultraflow size XL 32 miếng
+              </h3>
+              <div class="price">
+                <strike>454.000₫</strike>&nbsp; <b>354.000₫</b>
+              </div>
+            </a>
+            <a class="buy" href="#">Chọn mua</a>
+          </li>
+
+          <li class="product pd2">
+            <a
+              href="#"
+              title="Tã quần Huggies Platinum natural made size XXL 26 miếng (cho bé trên 15kg)"
+            >
+              <div
+                class="boximg"
+                title="Tã quần Huggies Platinum natural made size XXL 26 miếng (cho bé trên 15kg)"
+              >
+                <img
+                  width="160"
+                  height="160"
+                  src="https://cdn.tgdd.vn/Products/Images/2427/230261/bhx/ta-quan-huggies-platinum-natural-made-size-xxl-26-mieng-cho-be-tren-15kg-202205191417304744_300x300.jpg"
+                  alt="Tã quần Huggies Platinum natural made size XXL 26 miếng (cho bé trên 15kg)"
+                />
+              </div>
+              <h3 class="product-name">
+                Tã quần Huggies Platinum natural made size XXL 26 miếng
+              </h3>
+              <div class="price">
+                <strike>445.000₫</strike>&nbsp; <b>309.000₫</b>
+              </div>
+            </a>
+            <a class="buy" href="#">Chọn mua</a>
+          </li>
+
+          <li class="product pd3">
+            <a
+              href="#"
+              title="Tã dán Mamamy Ultraflow size S 54 miếng (cho bé dưới 5kg)"
+            >
+              <div
+                class="boximg"
+                title="Tã dán Mamamy Ultraflow size S 54 miếng (cho bé dưới 5kg)"
+              >
+                <img
+                  width="160"
+                  height="160"
+                  src="https://cdn.tgdd.vn/Products/Images/2427/206697/bhx/ta-dan-mamamy-ultraflow-size-s-54-mieng-cho-be-duoi-5kg-202205191121440420_300x300.jpg"
+                  alt="Tã dán Mamamy Ultraflow size S 54 miếng (cho bé dưới 5kg)"
+                />
+              </div>
+              <h3 class="product-name">
+                Tã dán Mamamy Ultraflow size S 54 miếng
+              </h3>
+              <div class="price">
+                <strike>405.000₫</strike>&nbsp; <b>289.000₫</b>
+              </div>
+            </a>
+            <a class="buy" href="#">Chọn mua</a>
+          </li>
+
+          <li class="product pd4">
+            <a
+              href="#"
+              title="Son dưỡng môi Mediheal trị thâm dùng ban đêm không màu 10ml"
+            >
+              <div
+                class="boximg"
+                title="Son dưỡng môi Mediheal trị thâm dùng ban đêm không màu 10ml"
+              >
+                <img
+                  width="160"
+                  height="160"
+                  src="https://cdn.tgdd.vn/Products/Images/9958/275603/bhx/son-duong-moi-mediheal-tri-tham-dung-ban-dem-10ml-202205271556090420_300x300.jpg"
+                  alt="Son dưỡng môi Mediheal trị thâm dùng ban đêm không màu 10ml"
+                />
+              </div>
+              <h3 class="product-name">
+                Son dưỡng môi Mediheal trị thâm dùng ban đêm không màu 10ml
+              </h3>
+              <div class="price">
+                <strike>143.000₫</strike>&nbsp; <b>142.000₫</b>
+              </div>
+            </a>
+            <a class="buy" href="#">Chọn mua</a>
+          </li>
+
+          <li class="product pd5">
+            <a
+              href="#"
+              title="Son dưỡng môi Mediheal trị thâm dùng ban ngày không màu 10ml"
+            >
+              <div
+                class="boximg"
+                title="Son dưỡng môi Mediheal trị thâm dùng ban ngày không màu 10ml"
+              >
+                <img
+                  width="160"
+                  height="160"
+                  src="https://cdn.tgdd.vn/Products/Images/9958/275604/bhx/son-duong-moi-mediheal-tri-tham-dung-ban-ngay-10ml-202205271551149097_300x300.jpg"
+                  alt="Son dưỡng môi Mediheal trị thâm dùng ban ngày không màu 10ml"
+                />
+              </div>
+              <h3 class="product-name">
+                Son dưỡng môi Mediheal trị thâm dùng ban ngày không màu 10ml
+              </h3>
+              <div class="price">
+                <strike>143.000₫</strike>&nbsp; <b>141.000₫</b>
+              </div>
+            </a>
+            <a class="buy" href="#">Chọn mua</a>
+          </li>
+
+          <li class="product pd6">
+            <a
+              href="#"
+              title="Hộp 3 cái bao cao su Durex Performa kéo dài thời gian 52mm"
+            >
+              <div
+                class="boximg"
+                title="Hộp 3 cái bao cao su Durex Performa kéo dài thời gian 52mm"
+              >
+                <img
+                  width="160"
+                  height="160"
+                  src="https://cdn.tgdd.vn/Products/Images/2519/77194/bhx/hop-3-cai-bao-cao-su-durex-performa-keo-dai-thoi-gian-52mm-202205211145047994_300x300.jpg"
+                  alt="Hộp 3 cái bao cao su Durex Performa kéo dài thời gian 52mm"
+                />
+              </div>
+              <h3 class="product-name">
+                Hộp 3 cái bao cao su Durex Performa kéo dài thời gian 52mm
+              </h3>
+              <div class="price">
+                <strike>72.000₫</strike>&nbsp; <b>69.000₫</b>
+              </div>
+            </a>
+            <a class="buy" href="#">Chọn mua</a>
+          </li>
+
+          <li class="product pd7">
+            <a href="#" title="Hộp 10 cái bao cao su Durex Invisible 52mm">
+              <div
+                class="boximg"
+                title="Hộp 10 cái bao cao su Durex Invisible 52mm"
+              >
+                <img
+                  width="160"
+                  height="160"
+                  data-src="https://cdn.tgdd.vn/Products/Images/2519/190300/bhx/hop-10-cai-bao-cao-su-durex-invisible-52mm-202208131307298128_300x300.jpg"
+                  alt="Hộp 10 cái bao cao su Durex Invisible 52mm"
+                  src="https://cdn.tgdd.vn/Products/Images/2519/190300/bhx/hop-10-cai-bao-cao-su-durex-invisible-52mm-202208131307298128_300x300.jpg"
+                />
+              </div>
+              <h3 class="product-name">
+                Hộp 10 cái bao cao su Durex Invisible 52mm
+              </h3>
+              <div class="price">
+                <strike>232.000₫</strike>&nbsp; <b>219.000₫</b>
+              </div>
+            </a>
+            <a class="buy" href="#">Chọn mua</a>
+          </li>
+        </ul>
+        <div class="content-title" id="c1">
+          <h2>Rau, củ, trái cây</h2>
+        </div>
+        <ul style="flex: 1 100%; clear: both">
+          <li class="product pd8">
+            <a href="#" title="Cải ngọt baby gói 300g">
+              <div class="boximg" title="Cải ngọt baby gói 300g">
+                <img
+                  width="160"
+                  height="160"
+                  alt="Cải ngọt baby gói 300g"
+                  src="https://cdn.tgdd.vn/Products/Images/8820/223330/bhx/cai-ngot-baby-goi-300g-202208121321041182_300x300.jpg"
+                />
+              </div>
+              <h3 class="product-name">Cải ngọt baby gói 300g</h3>
+              <div class="price">
+                <strike>14.500₫</strike>&nbsp; <b>13.500₫</b>
+              </div>
+            </a>
+            <a class="buy" href="#">Chọn mua</a>
+          </li>
+
+          <li class="product pd9">
+            <a href="#" title="Dưa leo baby 500g (8-10 trái)">
+              <div class="boximg" title="Dưa leo baby 500g (8-10 trái)">
+                <img
+                  width="160"
+                  height="160"
+                  alt="Dưa leo baby 500g (8-10 trái)"
+                  src="https://cdn.tgdd.vn/Products/Images/8785/271668/bhx/dua-leo-baby-500g-8-10-trai-202205201601136061_300x300.jpg"
+                />
+              </div>
+              <h3 class="product-name">Dưa leo baby 500g (8-10 trái)</h3>
+              <div class="price">
+                <b>18.000₫</b>
+              </div>
+            </a>
+            <a class="buy" href="#">Chọn mua</a>
+          </li>
+
+          <li class="product pd10">
+            <a href="#" title="Bắp mỹ túi 2 trái (từ 600g trở lên)">
+              <div class="boximg" title="Bắp mỹ túi 2 trái (từ 600g trở lên)">
+                <img
+                  width="160"
+                  height="160"
+                  alt="Bắp mỹ túi 2 trái (từ 600g trở lên)"
+                  src="https://cdn.tgdd.vn/Products/Images/8785/222881/bhx/bap-my-tui-2-trai-tu-600g-tro-len-202208131107296380_300x300.jpg"
+                />
+              </div>
+              <h3 class="product-name">Bắp mỹ túi 2 trái (từ 600g trở lên)</h3>
+              <div class="price">
+                <b>15.000₫</b>
+              </div>
+            </a>
+            <a class="buy" href="#">Chọn mua</a>
+          </li>
+
+          <li class="product pd11">
+            <a href="#" title="Nấm kim châm Hàn Quốc gói 150g">
+              <div class="boximg" title="Nấm kim châm Hàn Quốc gói 150g">
+                <img
+                  width="160"
+                  height="160"
+                  alt="Nấm kim châm Hàn Quốc gói 150g"
+                  src="https://cdn.tgdd.vn/Products/Images/8820/226959/bhx/nam-kim-cham-han-quoc-goi-150g-202205210953222432_300x300.jpg"
+                />
+              </div>
+              <h3 class="product-name">Nấm kim châm Hàn Quốc gói 150g</h3>
+              <div class="price">
+                <b>15.000₫</b>
+              </div>
+            </a>
+            <a class="buy" href="#">Chọn mua</a>
+          </li>
+
+          <li class="product pd12">
+            <a href="#" title="Cải ngồng 4KFarm gói 500g">
+              <div class="boximg" title="Cải ngồng 4KFarm gói 500g">
+                <img
+                  width="160"
+                  height="160"
+                  alt="Cải ngồng 4KFarm gói 500g"
+                  src="https://cdn.tgdd.vn/Products/Images/8820/267914/bhx/cai-ngong-4kfarm-goi-500g-202207221452064772_300x300.jpg"
+                />
+              </div>
+              <h3 class="product-name">Cải ngồng 4KFarm gói 500g</h3>
+              <div class="price"><strike>13.000₫</strike> <b>12.900₫</b></div>
+            </a>
+            <a style="color: red" class="buy" href="#">Hết hàng</a>
+          </li>
+
+          <li class="product pd13">
+            <a href="#" title="Hạt sen tươi gói 200g">
+              <div class="boximg" title="Hạt sen tươi gói 200g">
+                <img
+                  width="160"
+                  height="160"
+                  alt="Hạt sen tươi gói 200g"
+                  src="https://cdn.tgdd.vn/Products/Images/8785/281507/bhx/hat-sen-tuoi-goi-200g-202205200922256414_300x300.jpg"
+                />
+              </div>
+              <h3 class="product-name">Hạt sen tươi gói 200g</h3>
+              <div class="price">
+                <b>59.000₫</b>
+              </div>
+            </a>
+            <a class="buy" href="#">Chọn mua</a>
+          </li>
+
+          <li class="product pd14">
+            <a href="#" title="Nấm đùi gà vỉ 200g">
+              <div class="boximg" title="Nấm đùi gà vỉ 200g">
+                <img
+                  width="160"
+                  height="160"
+                  alt="Nấm đùi gà vỉ 200g"
+                  src="https://cdn.tgdd.vn/Products/Images/8820/228921/bhx/nam-dui-ga-vi-200g-202205211047309451_300x300.jpg"
+                />
+              </div>
+              <h3 class="product-name">Nấm đùi gà vỉ 200g</h3>
+              <div class="price">
+                <b>26.000₫</b>
+              </div>
+            </a>
+            <a class="buy" href="#">Chọn mua</a>
+          </li>
+
+          <li class="product pd15">
+            <a href="#" title="Cải thìa 4KFarm gói 500g">
+              <div class="boximg" title="Cải thìa 4Farm gói 500g">
+                <img
+                  width="160"
+                  height="160"
+                  alt="Cải thìa 4Farm gói 500g"
+                  src="https://cdn.tgdd.vn/Products/Images/8820/267905/bhx/cai-thia-4kfarm-goi-500g-202207221452388486_300x300.jpg"
+                />
+              </div>
+              <h3 class="product-name">Cải thìa 4Farm gói 500g</h3>
+              <div class="price"><strike>9.900₫</strike> <b>9.400₫</b></div>
+            </a>
+            <a class="buy" href="#">Chọn mua</a>
+          </li>
+        </ul>
+        <div class="content-title" id="c2">
+          <h2>Dầu ăn, nước mắm, gia vị</h2>
+        </div>
+        <ul style="flex: 1 100%; clear: both">
+          <li class="product pd16">
+            <a href="#" title="Dầu thực vật Nakydaco chai 1 lít">
+              <div class="boximg" title="Dầu thực vật Nakydaco chai 1 lít">
+                <img
+                  width="160"
+                  height="160"
+                  alt="Dầu thực vật Nakydaco chai 1 lít"
+                  src="https://cdn.tgdd.vn/Products/Images/2286/79956/bhx/dau-thuc-vat-nakydaco-cooking-oil-chai-1-lit-202208151713058728_300x300.jpg"
+                />
+              </div>
+              <h3 class="product-name">Dầu thực vật Nakydaco chai 1 lít</h3>
+              <div class="price">
+                <b>47.500₫</b>
+              </div>
+            </a>
+            <a class="buy" href="#">Chọn mua</a>
+          </li>
+
+          <li class="product pd17">
+            <a href="#" title="Đường mía thượng hạng Biên Hoà gói 1kg">
+              <div
+                class="boximg"
+                title="Đường mía thượng hạng Biên Hoà gói 1kg"
+              >
+                <img
+                  width="160"
+                  height="160"
+                  alt="Đường mía thượng hạng Biên Hoà gói 1kg"
+                  src="https://cdn.tgdd.vn/Products/Images/2804/85200/bhx/duong-mia-thuong-hang-bien-hoa-goi-1kg-202205161554082150_300x300.png"
+                />
+              </div>
+              <h3 class="product-name">
+                Đường mía thượng hạng Biên Hoà gói 1kg
+              </h3>
+              <div class="price">
+                <b>28.600₫</b>
+              </div>
+            </a>
+            <a class="buy" href="#">Chọn mua</a>
+          </li>
+
+          <li class="product pd17">
+            <a href="#" title="Bột ngọt hạt lớn Ajinomoto gói 454g">
+              <div class="boximg" title="Bột ngọt hạt lớn Ajinomoto gói 454g">
+                <img
+                  width="160"
+                  height="160"
+                  alt="Bột ngọt hạt lớn Ajinomoto gói 454g"
+                  src="https://cdn.tgdd.vn/Products/Images/2806/77081/bhx/bot-ngot-hat-lon-ajinomoto-goi-454g-202205170848164510_300x300.jpg"
+                />
+              </div>
+              <h3 class="product-name">Bột ngọt hạt lớn Ajinomoto gói 454g</h3>
+              <div class="price">
+                <b>34.600₫</b>
+              </div>
+            </a>
+            <a class="buy" href="#">Chọn mua</a>
+          </li>
+
+          <li class="product pd18">
+            <a
+              href="#"
+              title="Hạt nêm thịt thăn, xương ống, tuỷ Knorr gói 900g"
+            >
+              <div
+                class="boximg"
+                title="Hạt nêm thịt thăn, xương ống, tuỷ Knorr gói 900g"
+              >
+                <img
+                  width="160"
+                  height="160"
+                  alt="Hạt nêm thịt thăn, xương ống, tuỷ Knorr gói 900g"
+                  src="https://cdn.tgdd.vn/Products/Images/2806/77241/bhx/hat-nem-thit-than-xuong-ong-tuy-knorr-goi-900g-202205170853553939_300x300.jpg"
+                />
+              </div>
+              <h3 class="product-name">
+                Hạt nêm thịt thăn, xương ống, tuỷ Knorr gói 900g
+              </h3>
+              <div class="price">
+                <b>86.000₫</b>
+              </div>
+            </a>
+            <a class="buy" href="#">Chọn mua</a>
+          </li>
+
+          <li class="product pd19">
+            <a href="#" title="Muối tinh sấy bổ sung i-ốt Sosal Group gói 1kg">
+              <div
+                class="boximg"
+                title="Muối tinh sấy bổ sung i-ốt Sosal Group gói 1kg"
+              >
+                <img
+                  width="160"
+                  height="160"
+                  alt="Muối tinh sấy bổ sung i-ốt Sosal Group gói 1kg"
+                  src="https://cdn.tgdd.vn/Products/Images/2803/210392/bhx/muoi-tinh-say-bo-sung-i-ot-sosal-group-goi-1kg-202205171507376334_300x300.jpg"
+                />
+              </div>
+              <h3 class="product-name">
+                Muối tinh sấy bổ sung i-ốt Sosal Group gói 1kg
+              </h3>
+              <div class="price">
+                <b>6.900₫</b>
+              </div>
+            </a>
+            <a class="buy" href="#">Chọn mua</a>
+          </li>
+
+          <li class="product pd20">
+            <a href="#" title="Nước mắm Nam Ngư Đệ Nhị chai 900ml">
+              <div class="boximg" title="Nước mắm Nam Ngư Đệ Nhị chai 900ml">
+                <img
+                  width="160"
+                  height="160"
+                  alt="Nước mắm Nam Ngư Đệ Nhị chai 900ml"
+                  src="https://cdn.tgdd.vn/Products/Images/2289/76428/bhx/nuoc-cham-nam-ngu-de-nhi-chai-900ml-202205180911479249_300x300.jpg"
+                />
+              </div>
+              <h3 class="product-name">Nước mắm Nam Ngư Đệ Nhị chai 900ml</h3>
+              <div class="price">
+                <b>24.900₫</b>
+              </div>
+            </a>
+            <a class="buy" href="#">Chọn mua</a>
+          </li>
+
+          <li class="product pd21">
+            <a href="#" title="Nước tương đậm đặc Maggi chai 700ml">
+              <div class="boximg" title="Nước tương đậm đặc Maggi chai 700ml">
+                <img
+                  width="160"
+                  height="160"
+                  alt="Nước tương đậm đặc Maggi chai 700ml"
+                  src="https://cdn.tgdd.vn/Products/Images/2683/76548/bhx/nuoc-tuong-dau-nanh-dam-dac-maggi-chai-700ml-202208011925577667_300x300.jpg"
+                />
+              </div>
+              <h3 class="product-name">Nước tương đậm đặc Maggi chai 700ml</h3>
+              <div class="price">
+                <b>30.800₫</b>
+              </div>
+            </a>
+            <a class="buy" href="#">Chọn mua</a>
+          </li>
+
+          <li class="product pd22">
+            <a href="#" title="Tiêu đen xay DH Foods hũ 45g">
+              <div class="boximg" title="Tiêu đen xay DH Foods hũ 45g">
+                <img
+                  width="160"
+                  height="160"
+                  alt="Tiêu đen xay DH Foods hũ 45g"
+                  src="https://cdn.tgdd.vn/Products/Images/2809/155820/bhx/tieu-den-xay-dh-foods-hu-45g-202205181606129897_300x300.jpg"
+                />
+              </div>
+              <h3 class="product-name">Tiêu đen xay DH Foods hũ 45g</h3>
+              <div class="price">
+                <b>19.100₫</b>
+              </div>
+            </a>
+            <a class="buy" href="#">Chọn mua</a>
+          </li>
+
+          <li class="product pd23">
+            <a href="#" title="Gia vị nêm sẵn lẩu Thái Aji-Quick gói 55g">
+              <div
+                class="boximg"
+                title="Gia vị nêm sẵn lẩu Thái Aji-Quick gói 55g"
+              >
+                <img
+                  width="160"
+                  height="160"
+                  alt="Gia vị nêm sẵn lẩu Thái Aji-Quick gói 55g"
+                  src="https://cdn.tgdd.vn/Products/Images/8271/91755/bhx/gia-vi-nem-san-lau-thai-aji-quick-goi-55g-202205161607204645_300x300.jpg"
+                />
+              </div>
+              <h3 class="product-name">
+                Gia vị nêm sẵn lẩu Thái Aji-Quick gói 55g
+              </h3>
+              <div class="price">
+                <b>8.400₫</b>
+              </div>
+            </a>
+            <a class="buy" href="#">Chọn mua</a>
+          </li>
+        </ul>
+        <div id="plus">
+          <a href="index.html">Xem thêm...sản phẩm</a>
+          <span
+            ><i
+              style="
+                z-index: 2;
+                color: #0064c2;
+                font-size: 13px;
+                cursor: pointer;
+                line-height: 45px;
+              "
+              class="fa-solid fa-caret-down"
+            ></i
+          ></span>
+        </div>
+      </div>
+
+      <div id="footer">
+        <div class="boxfooter">
+          <div class="benefits">
+            <div>
+              <i class="fa-regular fa-clock"></i>
+              <p>
+                Đặt online
+                <b>giao tận giường ĐÚNG GIỜ</b>
+                <br />
+                (Nếu trễ thì thôi)
+              </p>
+            </div>
+            <a
+              href="https://www.w3schools.com/jquery/default.asp"
+              rel="nofollow"
+            >
+              <i class="fa-solid fa-arrow-rotate-left"></i>
+              <p>Đổi, trả sản phẩm <b>trong 3 ngày</b></p>
+            </a>
+          </div>
+        </div>
+        <div class="copyright">
+          Copyright &#169; 2022&#x2013;Lưu Khoa Học <br />
+          Source "Bách Hoá Xanh"
+        </div>
+      </div>
+    </div>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

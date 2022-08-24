@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Ex-7</title>
+  </head>
+  <body>
+    <div class="Ex-7">
+      <h1>ADD EMPLOYEE</h1>
+
+      <form class="fAddEmployee" id="fAddEmployee">
+        <table>
+          <tr>
+            <td>Employee ID</td>
+            <td>
+              <input
+                class="form-control"
+                name="txtID"
+                id="txtID"
+                placeholder="ID"
+                type="text"
+              />
+              <span id="idErr"></span>
+            </td>
+          </tr>
+          <tr>
+            <td>First Name</td>
+            <td>
+              <input
+                class="form-control"
+                name="txtFullname"
+                id="txtFirstName"
+                placeholder="First ..."
+                type="text"
+              />
+              <span id="fnameErr"></span>
+            </td>
+          </tr>
+          <tr>
+            <td>Last Name</td>
+            <td>
+              <input
+                class="form-control"
+                name="txtFullname"
+                id="txtLastName"
+                placeholder="First ..."
+                type="text"
+              />
+              <span id="lnameErr"></span>
+            </td>
+          </tr>
+          <tr>
+            <td>Security Number</td>
+            <td>
+              <input
+                class="form-control"
+                name="Security"
+                id="txtSecurityNumber"
+                placeholder="Security Number ..."
+                type="text"
+              />
+              <span id="snumErr"></span>
+            </td>
+          </tr>
+          <tr>
+            <td>Salary</td>
+            <td>
+              <input
+                class="form-control"
+                name="Salary"
+                id="txtSalary"
+                placeholder="Salary ..."
+                type="text"
+              />
+              <span id="salaryErr"></span>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                class="btn btn-success"
+                type="button"
+                name="btSubmit"
+                id="btSubmit"
+                value="Submit"
+                onclick=" ADD()"
+              />
+              <input
+                class="btn btn-danger"
+                type="reset"
+                name="btReset"
+                id="btReset"
+                value="Reset"
+                onclick="clearErr()"
+              />
+            </td>
+          </tr>
+        </table>
+        <h1>EMPLOYEE LIST</h1>
+        <p>Total: <span id="count"></span></p>
+
+        <form id="tbEmployeeList">
+          <table id="tbEmployeeList">
+            <td id="txtID">Employee ID</td>
+            <td id="txtFirstName">Full Name</td>
+
+            <td id="txtSecurityNumber">Number</td>
+
+            <td id="txtSalary">Salary</td>
+          </table>
+        </form>
+      </form>
+    </div>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+D:\Workspace\VTCA\On-tap-DA\Binary-Search\bin\Debug\net6.0\Binary-Search.exe
+D:\Workspace\VTCA\On-tap-DA\Binary-Search\bin\Debug\net6.0\Binary-Search.deps.json
+D:\Workspace\VTCA\On-tap-DA\Binary-Search\bin\Debug\net6.0\Binary-Search.runtimeconfig.json
+D:\Workspace\VTCA\On-tap-DA\Binary-Search\bin\Debug\net6.0\Binary-Search.dll
+D:\Workspace\VTCA\On-tap-DA\Binary-Search\bin\Debug\net6.0\ref\Binary-Search.dll
+D:\Workspace\VTCA\On-tap-DA\Binary-Search\bin\Debug\net6.0\Binary-Search.pdb
+D:\Workspace\VTCA\On-tap-DA\Binary-Search\obj\Debug\net6.0\Binary-Search.csproj.AssemblyReference.cache
+D:\Workspace\VTCA\On-tap-DA\Binary-Search\obj\Debug\net6.0\Binary-Search.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\VTCA\On-tap-DA\Binary-Search\obj\Debug\net6.0\Binary-Search.AssemblyInfoInputs.cache
+D:\Workspace\VTCA\On-tap-DA\Binary-Search\obj\Debug\net6.0\Binary-Search.AssemblyInfo.cs
+D:\Workspace\VTCA\On-tap-DA\Binary-Search\obj\Debug\net6.0\Binary-Search.csproj.CoreCompileInputs.cache
+D:\Workspace\VTCA\On-tap-DA\Binary-Search\obj\Debug\net6.0\Binary-Search.dll
+D:\Workspace\VTCA\On-tap-DA\Binary-Search\obj\Debug\net6.0\ref\Binary-Search.dll
+D:\Workspace\VTCA\On-tap-DA\Binary-Search\obj\Debug\net6.0\Binary-Search.pdb
+D:\Workspace\VTCA\On-tap-DA\Binary-Search\obj\Debug\net6.0\Binary-Search.genruntimeconfig.cache

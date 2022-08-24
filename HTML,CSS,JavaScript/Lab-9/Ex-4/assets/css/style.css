@@ -1,0 +1,32 @@
+#content {
+  width: 100%;
+  min-height: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#input {
+  width: 18rem;
+  height: 48px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+#btn {
+  width: 6rem;
+  height: 48px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+#fixed {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: green;
+}

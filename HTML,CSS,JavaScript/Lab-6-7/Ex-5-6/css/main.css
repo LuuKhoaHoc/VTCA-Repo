@@ -1,0 +1,99 @@
+.form-group {
+  width: 70%;
+  height: 600px;
+  background-color: #d2d2d2;
+  padding: 20px;
+}
+.Name,
+.Email,
+.Phone,
+.Comment,
+.Gender,
+.Country {
+  margin: 0px 0px 28px 0px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Name input {
+  width: 70%;
+  height: 25px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+}
+.Email input {
+  width: 70%;
+  height: 25px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+}
+.Phone input {
+  width: 70%;
+  height: 25px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+}
+.Country select {
+  width: 71%;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+}
+.Comment textarea {
+  width: 70%;
+  height: 160px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+}
+.Comment input::placeholder {
+  position: absolute;
+  top: 2%;
+}
+.Gender .male {
+  display: inline;
+  position: relative;
+  transform: translateX(50%);
+  right: 65%;
+}
+.Button {
+  float: right;
+  margin-right: 50px;
+}
+#submit {
+  width: 100px;
+  height: 40px;
+  margin: 10px 5px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  background-color: lightgreen;
+  cursor: pointer;
+}
+#reset {
+  width: 100px;
+  height: 40px;
+  margin: 10px 5px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  background-color: lightcoral;
+  cursor: pointer;
+}
+#checkMail,
+#checkPhone,
+#checkGender,
+#checkName {
+  margin-top: -15px;
+  margin-left: 29%;
+  visibility: hidden;
+  font-weight: bold;
+  color: red;
+}

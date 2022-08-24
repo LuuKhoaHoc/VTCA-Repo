@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Lưu Khoa Học" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/65ca83241b.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Exam-inClass</title>
+  </head>
+  <body>
+    <div id="main">
+      <form class="form1" id="form1" >
+        <h2>Đăng ký thông tin thành viên</h2>
+        <ul class="list-inline">
+          <li>
+            <div class="textbox">
+                <span><i class="fa-solid fa-user"></i></span>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="&nbsp;&nbsp;Tên đăng nhập"
+              />
+            </div>
+            
+          </li>
+          <span class  ="error" id="nameErr"></span>
+          <li>
+            <div class="textbox">
+                <span><i class="fa-solid fa-envelope"></i></span>
+              <input type="email" name="email" id="mail" placeholder="&nbsp;&nbsp;Email" />
+            </div>
+        </li>
+        <span class="error" id="mailErr"></span>
+          <li>
+            <div class="textbox">
+                <span><i class="fa-solid fa-key"></i></span>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="&nbsp;&nbsp;Mật khẩu"
+              />
+            </div>
+        </li>
+        <span class="error" id="pwErr"></span>
+          <li>
+            <div class="textbox">
+                <span><i class="fa-solid fa-key"></i></span>
+              <input
+                type="password"
+                name="password"
+                id="password1"
+                placeholder="&nbsp;&nbsp;Nhập lại mật khẩu"
+              />
+            </div>
+        </li>
+        <span class="error" id="pwErr1"></span>
+          <li>
+            <div class="textbox">
+                <span><i class="fa-solid fa-mars"></i></span>
+                <div class="input-group">
+              <input type="radio" name="gender" id="gender" value="Nam" />Nam
+              <input type="radio" name="gender" id="gender" value="Nữ" />Nữ
+                </div>
+            </div>
+        </li>
+        <span class="error" id="gErr"></span>
+          <li>
+            <div class="textbox">
+                <span><i class="fa-solid fa-check"></i></span>
+                <div class="input-group">
+                <input type="checkbox" name="checkAge" id="checkAge" value="Tôi cam kết đủ tuổi">
+                <span>Tôi cam kết đủ 18 tuổi</span>
+                </div>
+            </div>
+        </li>
+        <span class="error" id="ageErr"></span>
+          <li>
+            <div class="textbox">
+                <span><i class="fa-solid fa-check"></i> </span>
+                <div class="input-group">
+                <input type="checkbox" name="check" id="check" value="Tôi đồng ý điều khoản của trang web">
+                <span>Tôi đồng ý điều khoản của trang web</span>
+                </div>
+            </div>
+        </li>
+        <span class="error" id="checkErr"></span>
+        </ul>
+        <div class="btn-group">
+          <button type="button" onclick="add()" class="btn btn-primary">Đăng ký</button>
+          <button type="reset" class="btn btn-danger">Nhập lại</button>
+      </form>
+    </div>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

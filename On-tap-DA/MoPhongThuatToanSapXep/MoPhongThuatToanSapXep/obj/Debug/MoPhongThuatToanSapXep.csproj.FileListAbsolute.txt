@@ -1,0 +1,42 @@
+C:\Users\thuha\Downloads\DALTTQ-master\ARCHIVE\SortingAlgorithmsGUI\bin\Debug\MoPhongThuatToanSapXep.exe.config
+C:\Users\thuha\Downloads\DALTTQ-master\ARCHIVE\SortingAlgorithmsGUI\obj\Debug\MoPhongThuatToanSapXep.csprojResolveAssemblyReference.cache
+C:\Users\thuha\Downloads\DALTTQ-master\ARCHIVE\SortingAlgorithmsGUI\obj\Debug\SortingAlgorithmsGUI.frmApplication.resources
+C:\Users\thuha\Downloads\DALTTQ-master\ARCHIVE\SortingAlgorithmsGUI\obj\Debug\SortingAlgorithmsGUI.frmByHand.resources
+C:\Users\thuha\Downloads\DALTTQ-master\ARCHIVE\SortingAlgorithmsGUI\obj\Debug\SortingAlgorithmsGUI.Help.resources
+C:\Users\thuha\Downloads\DALTTQ-master\ARCHIVE\SortingAlgorithmsGUI\obj\Debug\MoPhongThuatToanSapXep.Properties.Resources.resources
+C:\Users\thuha\Downloads\DALTTQ-master\ARCHIVE\SortingAlgorithmsGUI\obj\Debug\ApplicationsGUI.userLecturers.resources
+C:\Users\thuha\Downloads\DALTTQ-master\ARCHIVE\SortingAlgorithmsGUI\obj\Debug\ApplicationsGUI.userStudents.resources
+C:\Users\thuha\Downloads\DALTTQ-master\ARCHIVE\SortingAlgorithmsGUI\obj\Debug\MoPhongThuatToanSapXep.csproj.GenerateResource.Cache
+C:\Users\thuha\Downloads\DALTTQ-master\ARCHIVE\SortingAlgorithmsGUI\bin\Debug\MoPhongThuatToanSapXep.exe
+C:\Users\thuha\Downloads\DALTTQ-master\ARCHIVE\SortingAlgorithmsGUI\bin\Debug\MoPhongThuatToanSapXep.pdb
+C:\Users\thuha\Downloads\DALTTQ-master\ARCHIVE\SortingAlgorithmsGUI\obj\Debug\MoPhongThuatToanSapXep.exe
+C:\Users\thuha\Downloads\DALTTQ-master\ARCHIVE\SortingAlgorithmsGUI\obj\Debug\MoPhongThuatToanSapXep.pdb
+C:\Users\thuha\Downloads\DALTTQ-master\ARCHIVE\MoPhongThuatToanSapXep\bin\Debug\MoPhongThuatToanSapXep.exe.config
+C:\Users\thuha\Downloads\DALTTQ-master\ARCHIVE\MoPhongThuatToanSapXep\obj\Debug\MoPhongThuatToanSapXep.exe
+C:\Users\thuha\Downloads\DALTTQ-master\ARCHIVE\MoPhongThuatToanSapXep\obj\Debug\MoPhongThuatToanSapXep.pdb
+C:\Users\CNTT\Desktop\DO_AN_2021\DA_NEW\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\bin\Debug\MoPhongThuatToanSapXep.exe.config
+C:\Users\CNTT\Desktop\DO_AN_2021\DA_NEW\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\bin\Debug\MoPhongThuatToanSapXep.exe
+C:\Users\CNTT\Desktop\DO_AN_2021\DA_NEW\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\bin\Debug\MoPhongThuatToanSapXep.pdb
+C:\Users\CNTT\Desktop\DO_AN_2021\DA_NEW\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\obj\Debug\MoPhongThuatToanSapXep.csprojResolveAssemblyReference.cache
+C:\Users\CNTT\Desktop\DO_AN_2021\DA_NEW\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\obj\Debug\SortingAlgorithmsGUI.frmApplication.resources
+C:\Users\CNTT\Desktop\DO_AN_2021\DA_NEW\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\obj\Debug\SortingAlgorithmsGUI.frmByHand.resources
+C:\Users\CNTT\Desktop\DO_AN_2021\DA_NEW\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\obj\Debug\SortingAlgorithmsGUI.Help.resources
+C:\Users\CNTT\Desktop\DO_AN_2021\DA_NEW\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\obj\Debug\MoPhongThuatToanSapXep.Properties.Resources.resources
+C:\Users\CNTT\Desktop\DO_AN_2021\DA_NEW\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\obj\Debug\ApplicationsGUI.userLecturers.resources
+C:\Users\CNTT\Desktop\DO_AN_2021\DA_NEW\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\obj\Debug\ApplicationsGUI.userStudents.resources
+C:\Users\CNTT\Desktop\DO_AN_2021\DA_NEW\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\obj\Debug\MoPhongThuatToanSapXep.csproj.GenerateResource.Cache
+C:\Users\CNTT\Desktop\DO_AN_2021\DA_NEW\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\obj\Debug\MoPhongThuatToanSapXep.exe
+C:\Users\CNTT\Desktop\DO_AN_2021\DA_NEW\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\obj\Debug\MoPhongThuatToanSapXep.pdb
+C:\Users\CNTT\Desktop\DO_AN_2021\9. Tran Quoc Hung_Mo phong sx\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\bin\Debug\MoPhongThuatToanSapXep.exe.config
+C:\Users\CNTT\Desktop\DO_AN_2021\9. Tran Quoc Hung_Mo phong sx\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\bin\Debug\MoPhongThuatToanSapXep.exe
+C:\Users\CNTT\Desktop\DO_AN_2021\9. Tran Quoc Hung_Mo phong sx\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\bin\Debug\MoPhongThuatToanSapXep.pdb
+C:\Users\CNTT\Desktop\DO_AN_2021\9. Tran Quoc Hung_Mo phong sx\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\obj\Debug\MoPhongThuatToanSapXep.csprojResolveAssemblyReference.cache
+C:\Users\CNTT\Desktop\DO_AN_2021\9. Tran Quoc Hung_Mo phong sx\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\obj\Debug\SortingAlgorithmsGUI.frmApplication.resources
+C:\Users\CNTT\Desktop\DO_AN_2021\9. Tran Quoc Hung_Mo phong sx\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\obj\Debug\SortingAlgorithmsGUI.frmByHand.resources
+C:\Users\CNTT\Desktop\DO_AN_2021\9. Tran Quoc Hung_Mo phong sx\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\obj\Debug\SortingAlgorithmsGUI.Help.resources
+C:\Users\CNTT\Desktop\DO_AN_2021\9. Tran Quoc Hung_Mo phong sx\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\obj\Debug\MoPhongThuatToanSapXep.Properties.Resources.resources
+C:\Users\CNTT\Desktop\DO_AN_2021\9. Tran Quoc Hung_Mo phong sx\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\obj\Debug\ApplicationsGUI.userLecturers.resources
+C:\Users\CNTT\Desktop\DO_AN_2021\9. Tran Quoc Hung_Mo phong sx\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\obj\Debug\ApplicationsGUI.userStudents.resources
+C:\Users\CNTT\Desktop\DO_AN_2021\9. Tran Quoc Hung_Mo phong sx\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\obj\Debug\MoPhongThuatToanSapXep.csproj.GenerateResource.Cache
+C:\Users\CNTT\Desktop\DO_AN_2021\9. Tran Quoc Hung_Mo phong sx\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\obj\Debug\MoPhongThuatToanSapXep.exe
+C:\Users\CNTT\Desktop\DO_AN_2021\9. Tran Quoc Hung_Mo phong sx\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\MoPhongThuatToanSapXep\obj\Debug\MoPhongThuatToanSapXep.pdb

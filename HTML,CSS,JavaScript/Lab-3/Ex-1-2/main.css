@@ -1,0 +1,23 @@
+.title {
+  color: red;
+  font-size: 20px;
+}
+.listmarker {
+  list-style-image: url("icons8-square-24.png");
+}
+li a:hover {
+  color: red;
+}
+.menu-list {
+  width: 100%;
+  list-style-type: none;
+  padding: 0;
+  border: 1px solid #ddd;
+}
+.menu-list li {
+  padding: 8px 16px;
+  border: 1px solid #ddd;
+}
+.menu-list li:last-child {
+  border-bottom: none;
+}

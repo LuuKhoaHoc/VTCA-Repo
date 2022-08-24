@@ -1,0 +1,26 @@
+li {
+  list-style-type: none;
+  font-size: 16pt;
+}
+.mail {
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 400px;
+  background: #ccc;
+  border: 1px solid silver;
+}
+.mail h2 {
+  margin-left: 38px;
+  margin-bottom: 20px;
+}
+input {
+  font-size: 20pt;
+}
+input:focus {
+  background-color: lightyellow;
+}
+.submit {
+  font-size: 12pt;
+  margin-top: 20px;
+}
