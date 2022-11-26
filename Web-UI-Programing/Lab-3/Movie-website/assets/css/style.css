@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  z-index: 10;
+  height: 46px;
+}
+
+.activee {
+  color: #0a58ca !important;
+}
+.IMG {
+  width: 221px !important;
+  height: 260px !important;
+}
+:is(.text_top, .text_center, .text_bot) {
+  font-size: 10px;
+}
+.text-start {
+  width: 143.48px;
+}
+.text-end {
+  width: 69.5px;
+}

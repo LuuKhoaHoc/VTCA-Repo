@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./build/tailwind.css" />
+    <link rel="stylesheet" href="./build/app.css" />
+    <title>Tailwind CSS</title>
+  </head>
+  <body>
+    <!-- npx tailwindcss -i css/tailwind.css -o build/tailwind.css --watch -->
+    <!-- text-[#ffa400] -->
+    <!-- 
+      sm: 640px
+      md: 768px
+      lg: 1024px
+      xl: 1280px
+
+      sm: tailwind class
+      md: tailwind class
+      lg: tailwind class
+    -->
+    <div class="travel">
+      <h1
+        class="pt-12 text-center text-[#ffa400] text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold mb-5"
+      >
+        Live anywhere
+      </h1>
+      <h2 class="text-center font-light text-xl text-[#07a787] mb-[35px]">
+        Keep calm & travel on
+      </h2>
+      <div
+        class="grid grid-cols-1 lg:grid-cols-3 gap-x-[37px] max-w-7xl mx-auto px-[15px] gap-y-7 lg:gap-y-0"
+      >
+        <div>
+          <div class="h-96 mb-5">
+            <img
+              src="https://images.unsplash.com/photo-1667758152029-7d18c2ab708f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+              alt=""
+              class="w-full h-full rounded-lg object-cover"
+            />
+          </div>
+          <h3 class="text-center font-semibold text-lg mb-3">
+            Enjoy the great cold
+          </h3>
+          <span class="block text-center text-gray-500 text-sm"
+            >6.789 properties</span
+          >
+        </div>
+        <div>
+          <div class="h-96 mb-5">
+            <img
+              src="https://images.unsplash.com/photo-1667758152029-7d18c2ab708f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+              alt=""
+              class="w-full h-full rounded-lg object-cover"
+            />
+          </div>
+          <h3 class="text-center font-semibold text-lg mb-3">
+            Enjoy the great cold
+          </h3>
+          <span class="block text-center text-gray-500 text-sm"
+            >6.789 properties</span
+          >
+        </div>
+        <div>
+          <div class="h-96 mb-5">
+            <img
+              src="https://images.unsplash.com/photo-1667758152029-7d18c2ab708f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+              alt=""
+              class="w-full h-full rounded-lg object-cover"
+            />
+          </div>
+          <h3 class="text-center font-semibold text-lg mb-3">
+            Enjoy the great cold
+          </h3>
+          <span class="block text-center text-gray-500 text-sm"
+            >6.789 properties</span
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

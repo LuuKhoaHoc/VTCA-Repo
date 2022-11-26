@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/build/tailwind.css" />
+    <script
+      src="https://kit.fontawesome.com/65ca83241b.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Dashboard</title>
+  </head>
+  <body class="overflow-x-hidden">
+    <div class="main m-auto">
+      <!-- header and subheader -->
+      <header class="bg-white">
+        <div class="container mx-auto flex h-16 justify-between">
+          <div class="logo cursor-pointer md:w-32 lg:w-max">
+            <img
+              class="md:pt-4 lg:pt-2"
+              src="./assets/img/Logo Dashboard.png"
+              alt="Dashboard"
+            />
+          </div>
+          <div class="flex" aria-label="Breadcrumb">
+            <ol class="inline-flex items-center md:space-x-3 lg:space-x-1">
+              <li class="inline-flex items-center">
+                <a
+                  href="#"
+                  class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:hover:text-white"
+                >
+                  <div
+                    class="flex items-center justify-around rounded-lg border border-[#e3e5e5] md:w-10 lg:w-[72px]"
+                  >
+                    <img
+                      class="md:w-6 lg:w-auto"
+                      src="./assets/img/Projects (1).png"
+                      alt=""
+                    />
+                    13
+                  </div>
+                </a>
+              </li>
+              <li>
+                <div class="flex items-center">
+                  <svg
+                    class="h-6 w-6 text-gray-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  <a
+                    href="#"
+                    class="font-medium text-gray-400 md:ml-2 md:text-xs lg:ml-1 lg:text-sm"
+                    >My workspace</a
+                  >
+                </div>
+              </li>
+              <li>
+                <div class="flex items-center">
+                  <svg
+                    class="h-6 w-6 text-gray-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  <a
+                    href="#"
+                    class="font-medium text-gray-500 md:ml-2 md:text-xs lg:ml-1 lg:text-sm"
+                    >Drafts</a
+                  >
+                </div>
+              </li>
+              <li aria-current="page">
+                <div class="flex items-center">
+                  <svg
+                    class="h-6 w-6 text-gray-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  <span
+                    class="font-medium text-black opacity-80 md:ml-2 md:text-xs lg:ml-1 lg:text-sm"
+                    >Analytika_dashboard_kit</span
+                  >
+                </div>
+              </li>
+            </ol>
+          </div>
+          <div
+            class="right-control flex items-center md:ml-2 md:gap-x-2 lg:gap-x-4 lg:py-4"
+          >
+            <div
+              class="btn-help rounded-lg border border-[#F7F9FA] bg-[#F7F9FA] text-center hover:scale-x-105 md:h-6 md:w-16 md:text-sm md:leading-6 lg:h-8 lg:w-20 lg:text-base lg:leading-7"
+            >
+              <span>Help</span>
+              <span class="text-gray-400 md:ml-1 lg:ml-3"
+                ><i class="fa-regular fa-circle-question"></i
+              ></span>
+            </div>
+            <div
+              class="btn-help rounded-lg border border-[] bg-white text-center text-xs font-bold uppercase text-[#367BF5] shadow-md shadow-blue-200 hover:scale-x-105 md:h-6 md:w-16 md:text-xs md:leading-6 lg:h-8 lg:w-20 lg:leading-8"
+            >
+              <span class="">Upgrade</span>
+            </div>
+            <div
+              class="user cursor-pointer md:h-9 md:w-9 lg:-m-1 lg:h-max lg:w-max"
+            >
+              <img src="./assets/img/Fernando Pidrilio.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div
+          class="subheader container mx-auto flex h-14 items-center justify-between"
+        >
+          <div
+            class="back flex cursor-pointer justify-around md:w-max md:items-center md:text-sm lg:w-[184px] lg:text-base"
+          >
+            <span class="text-[#367BF5] md:text-lg"
+              ><i class="fa-solid fa-arrow-left"></i
+            ></span>
+            <span class="text-[#919699] md:hidden lg:block"
+              >Back to previous</span
+            >
+          </div>
+          <div
+            class="tabs flex h-full items-center justify-around gap-x-6 text-[#5E6366] md:text-sm lg:text-base"
+          >
+            <button
+              class="rounded-tr-md rounded-tl-md border-x border-y border-b-white bg-white text-black opacity-90 md:py-4 md:px-3 lg:p-3"
+            >
+              Analyze
+            </button>
+            <button class="hover:opacity-50">My campaigns</button>
+            <button class="hover:opacity-50">Configure</button>
+            <button class="hover:opacity-50">Customize</button>
+            <button class="hover:opacity-50">Research</button>
+            <button class="hover:opacity-50">Inspect</button>
+          </div>
+          <div
+            class="dropdown flex cursor-pointer items-center rounded-xl border md:mt-1 md:gap-x-2 md:p-2 md:text-xs lg:gap-x-4 lg:p-1 lg:text-base"
+          >
+            <div class="left-content text-[14px] md:hidden lg:block">
+              Aug 21, 2016 · Sep 21 2016
+            </div>
+            <div class="left-content text-[11px] md:block lg:hidden">
+              21/8/2016 · 21/9/2016
+            </div>
+            <div class="right-icon -mt-2">
+              <i class="fa-solid fa-sort-down"></i>
+            </div>
+          </div>
+        </div>
+        <div class="line -m-[5px] border border-dashed"></div>
+      </header>
+      <!-- Main content -->
+      <div class="main-content mt-8 grid grid-cols-12">
+        <!-- Aside Bar -->
+        <div class="aside col-span-2 col-start-2 mx-auto grid-cols-4">
+          <div class="w-[224px]">
+            <div
+              class="btn-create mx-auto flex h-14 w-48 cursor-pointer items-center justify-center rounded-full border border-white bg-white text-blue-400 shadow-md shadow-blue-300"
+            >
+              <div><i class="fa-solid fa-circle-plus"></i></div>
+              <p class="ml-4">Create new</p>
+            </div>
+          </div>
+          <div class="mt-6 w-56 filter">
+            <div class="metrics flex cursor-pointer items-center p-2 2xl:p-4">
+              <i class="fa-solid fa-chart-pie"></i>
+              <p class="ml-3 leading-5">
+                Metrics
+                <br />
+                <span class="text-xs text-[#5E6366]"
+                  >Track your apps across devices</span
+                >
+              </p>
+            </div>
+
+            <div class="results flex cursor-pointer items-center p-2 2xl:p-4">
+              <i class="fa-solid fa-check"></i>
+              <p class="ml-3 leading-5">
+                Results
+                <br />
+                <span class="text-xs text-[#5E6366]"
+                  >View your result as Excel file</span
+                >
+              </p>
+            </div>
+
+            <div class="analytics flex cursor-pointer items-center p-2 2xl:p-4">
+              <i class="fa-solid fa-chart-column"></i>
+              <p class="ml-3 leading-5">
+                Google Analytics
+                <br />
+                <span class="text-xs text-[#5E6366]"
+                  >Track visits to your sites</span
+                >
+              </p>
+            </div>
+
+            <div
+              class="report flex cursor-pointer items-center rounded-lg bg-[#E6EFFF] p-2 2xl:p-4"
+            >
+              <i class="fa-solid fa-print text-blue-600"></i>
+              <p class="ml-3 leading-5">
+                Reports
+                <br />
+                <span class="text-xs text-[#5E6366]"
+                  >Get insights into the big data</span
+                >
+              </p>
+            </div>
+
+            <div class="tool flex cursor-pointer items-center p-2 2xl:p-4">
+              <i class="fa-solid fa-wrench"></i>
+              <p class="ml-3 leading-5">
+                More tools
+                <br />
+                <span class="text-xs text-[#F3AA18]"
+                  >Upgrade your plan to pro</span
+                >
+              </p>
+            </div>
+          </div>
+          <!-- Subnav -->
+          <div class="md:sticky md:top-[480px]">
+            <div
+              class="subnav mx-auto w-56 text-gray-400 md:mt-44 lg:mt-44 2xl:mt-32"
+            >
+              <div
+                class="settings flex cursor-pointer gap-x-4 border-b p-2 hover:text-gray-600"
+              >
+                <div class="icon">
+                  <i class="fa-solid fa-gear"></i>
+                </div>
+                <p class="subnav__text">Settings</p>
+              </div>
+              <div
+                class="version flex cursor-pointer gap-x-4 border-b p-2 hover:text-gray-600"
+              >
+                <div class="icon">
+                  <i class="fa-solid fa-rotate-left"></i>
+                </div>
+                <p class="subnav__text">Previous Version</p>
+              </div>
+              <div
+                class="news flex cursor-pointer gap-x-4 border-b p-2 hover:text-gray-600"
+              >
+                <div class="icon">
+                  <i class="fa-solid fa-circle-info"></i>
+                </div>
+                <p class="subnav__text">What's new?</p>
+              </div>
+              <div
+                class="support flex cursor-pointer gap-x-4 border-b p-2 hover:text-gray-600"
+              >
+                <div class="icon">
+                  <i class="fa-regular fa-circle-question"></i>
+                </div>
+                <p class="subnav__text">Customers Support</p>
+              </div>
+            </div>
+            <div
+              class="subnav__btn mx-auto mt-4 flex justify-around gap-2 text-center text-[10px] font-semibold uppercase tracking-widest text-gray-400"
+            >
+              <div
+                class="status cursor-pointer rounded-md bg-gradient-to-r from-[#D1FDFF] to-[#FFECBC] px-4 py-1 hover:scale-x-105"
+              >
+                Status
+              </div>
+              <div
+                class="privacy cursor-pointer rounded-md bg-slate-100 px-4 py-1 hover:scale-x-105"
+              >
+                Privacy
+              </div>
+              <div
+                class="terms cursor-pointer rounded-md bg-slate-100 px-4 py-1 hover:scale-x-105"
+              >
+                Terms
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Dashboard content -->
+        <div class="content col-start-5 col-end-12 grid-cols-8">
+          <!-- Dashboard header -->
+          <div class="header flex items-center">
+            <h1 class="-mt-2 mr-32 flex-1 text-4xl">Dashboard</h1>
+            <div class="btn flex items-center gap-x-2 text-[#5E6366]">
+              <div
+                class="past_month flex h-8 w-max cursor-pointer items-center rounded-md bg-gray-50 px-2"
+              >
+                <p class="mr-3 px-2">Past month</p>
+                <i class="fa-solid fa-angle-down mt-1 text-[#78909C]"></i>
+              </div>
+              <div
+                class="print h-8 w-8 cursor-pointer rounded-md bg-gray-50 text-center leading-8"
+              >
+                <i class="fa-solid fa-print"></i>
+              </div>
+              <div
+                class="download h-8 w-8 cursor-pointer rounded-md bg-gray-50 text-center leading-8"
+              >
+                <i class="fa-solid fa-download"></i>
+              </div>
+            </div>
+          </div>
+          <!-- Dashboard cards -->
+          <div
+            class="dashboard_cards my-6 grid md:ml-[31px] md:grid-cols-2 md:gap-4 xl:grid-cols-8 2xl:gap-24"
+          >
+            <div
+              class="card rounded-2xl bg-[#f7f9fa] md:w-60 lg:w-80 xl:col-span-2 xl:w-52"
+            >
+              <p class="p-4 text-xl font-normal">Played</p>
+              <p class="p-4 text-5xl font-semibold text-orange-500">1,254</p>
+            </div>
+            <div
+              class="card rounded-2xl bg-[#f7f9fa] md:w-60 lg:w-80 xl:col-span-2 xl:w-52"
+            >
+              <p class="p-4 text-xl font-normal">Finished</p>
+              <p class="p-4 text-5xl font-semibold text-blue-500">809</p>
+            </div>
+            <div
+              class="card rounded-2xl bg-[#f7f9fa] md:w-60 lg:w-80 xl:col-span-2 xl:w-52"
+            >
+              <p class="p-4 text-xl font-normal">Likes</p>
+              <p class="p-4 text-5xl font-semibold text-green-500">114</p>
+            </div>
+            <div
+              class="card rounded-2xl bg-[#f7f9fa] md:w-60 lg:w-80 xl:col-span-2 xl:w-52"
+            >
+              <p class="p-4 text-xl font-normal">Comments</p>
+              <p class="p-4 text-5xl font-semibold text-orange-300">27</p>
+            </div>
+          </div>
+          <!-- Dashboard tables -->
+          <!-- Table 1 -->
+          <div class="grid grid-cols-8">
+            <table class="col-span-8 mb-8">
+              <thead class="md:text-base">
+                <tr class="font-normal text-gray-400 md:text-base">
+                  <th class="text-left">Campaigns</th>
+                  <th class="text-right">Efficiency</th>
+                  <th class="text-right">Plays</th>
+                  <th class="text-right">Finished</th>
+                  <th class="text-right">Likes</th>
+                  <th class="text-right">Comments</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="border-t">
+                  <td>
+                    <p class="text-xl font-bold md:text-lg">
+                      Instagram stories marketing
+                    </p>
+                    <p class="text-sm text-gray-500">
+                      <span class="text-green-500">Draft</span> · Customize ·
+                      Edit · Referrers
+                    </p>
+                  </td>
+                  <td class="text-right text-lg md:text-sm">186</td>
+                  <td class="text-right text-lg md:text-sm">186</td>
+                  <td class="text-right text-lg md:text-sm">92</td>
+                  <td class="text-right text-lg md:text-sm">8</td>
+                  <td class="text-right text-lg md:text-sm">1</td>
+                </tr>
+                <tr class="border-t">
+                  <td>
+                    <p class="text-xl font-bold md:text-lg">
+                      Social Networks traffic
+                    </p>
+                    <p class="text-sm text-gray-500">
+                      <span class="text-yellow-500">Paused</span> · Customize ·
+                      Settings
+                    </p>
+                  </td>
+                  <td
+                    class="text-right text-lg font-bold text-red-500 md:text-sm"
+                  >
+                    95
+                  </td>
+                  <td class="text-right text-lg md:text-sm">95</td>
+                  <td class="text-right text-lg md:text-sm">31</td>
+                  <td class="text-right text-lg md:text-sm">11</td>
+                  <td class="text-right text-lg md:text-sm">0</td>
+                </tr>
+                <tr class="rounded-lg border bg-[#f7f9fa]">
+                  <td class="px-1">
+                    <p class="text-xl font-bold md:text-lg">
+                      Visitors from video sources
+                    </p>
+                    <p class="text-sm text-gray-500">
+                      <span class="text-blue-500">Active</span> · Customize ·
+                      Settings
+                    </p>
+                  </td>
+                  <td class="px-1 text-right text-lg md:text-sm">329</td>
+                  <td class="px-1 text-right text-lg md:text-sm">329</td>
+                  <td class="px-1 text-right text-lg md:text-sm">256</td>
+                  <td class="px-1 text-right text-lg md:text-sm">32</td>
+                  <td class="px-1 text-right text-lg md:text-sm">4</td>
+                </tr>
+                <tr class="border-t">
+                  <td>
+                    <p class="text-xl font-bold md:text-lg">Other Referrers</p>
+                    <p class="text-sm text-gray-500">
+                      <span class="text-blue-500">Active</span> · Customize ·
+                      Settings
+                    </p>
+                  </td>
+                  <td class="text-right text-lg font-bold text-green-500">
+                    804
+                  </td>
+                  <td class="text-right text-lg md:text-sm">804</td>
+                  <td class="text-right text-lg md:text-sm">697</td>
+                  <td class="text-right text-lg md:text-sm">40</td>
+                  <td class="text-right text-lg md:text-sm">22</td>
+                </tr>
+              </tbody>
+            </table>
+            <!-- Table 2 -->
+            <table
+              class="mb-7 -ml-3 md:col-span-8 md:col-start-1 md:ml-0 lg:col-span-4 lg:w-[420px] 2xl:col-span-4 2xl:-ml-3 2xl:w-full"
+            >
+              <thead class="text-[#919699] md:text-base">
+                <tr class="">
+                  <th class="py-2 text-left">Type of Action</th>
+                  <th class="py-2 text-right">Value Two</th>
+                  <th class="py-2 text-right">Value One</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="border-t">
+                  <td class="py-2">Videos Played</td>
+                  <td class="py-2 text-right">10</td>
+                  <td class="py-2 text-right">10</td>
+                </tr>
+                <tr class="border-t">
+                  <td class="py-2">Finished Watches</td>
+                  <td class="py-2 text-right">1 000</td>
+                  <td class="py-2 text-right">1 000</td>
+                </tr>
+                <tr class="border-t">
+                  <td class="py-2">Comments Posted</td>
+                  <td class="py-2 text-right">100</td>
+                  <td class="py-2 text-right">100</td>
+                </tr>
+                <tr class="border-t">
+                  <td class="py-2">Likes Gained</td>
+                  <td class="py-2 text-right">1 000</td>
+                  <td class="py-2 text-right">1 000</td>
+                </tr>
+              </tbody>
+              <tfoot class="border-t">
+                <td class="py-2 font-bold">Total</td>
+                <td class="py-2 text-right font-bold">2 100</td>
+                <td class="py-2 text-right font-bold">12 210</td>
+              </tfoot>
+            </table>
+            <!-- Table 3 -->
+            <table
+              class="col-start-5 ml-3 mb-7 md:col-span-8 md:col-start-1 md:ml-0 lg:col-span-4 lg:w-[420px] 2xl:col-span-4 2xl:ml-3 2xl:w-full"
+            >
+              <thead class="text-[#919699]">
+                <tr class="">
+                  <th class="py-2 text-left">Last Purchased</th>
+                  <th class="py-2 text-right">When</th>
+                  <th class="py-2 text-right">Earned</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="border-t">
+                  <td class="py-2">Mockups for Figma</td>
+                  <td class="py-2 text-right">16 mins</td>
+                  <td class="py-2 text-right">$ 0</td>
+                </tr>
+                <tr class="border-t">
+                  <td class="py-2">Material Icons Set</td>
+                  <td class="py-2 text-right">2 hours</td>
+                  <td class="py-2 text-right font-bold">$ 14.40</td>
+                </tr>
+                <tr class="border-t">
+                  <td class="py-2">Material Design System</td>
+                  <td class="py-2 text-right">1 day</td>
+                  <td class="py-2 text-right font-bold">$ 68.00</td>
+                </tr>
+                <tr class="border-t">
+                  <td class="py-2">Material Desktop System</td>
+                  <td class="py-2 text-right">1 day</td>
+                  <td class="py-2 text-right font-bold">$ 128.50</td>
+                </tr>
+                <td class="py-2">iOS toolkit for Figma</td>
+                <td class="py-2 text-right">2 days</td>
+                <td class="py-2 text-right font-bold">$ 58.00</td>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

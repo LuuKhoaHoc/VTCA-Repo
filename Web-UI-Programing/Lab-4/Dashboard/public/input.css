@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ahihi {
+  @apply bg-red-500 text-lg text-center font-extrabold;
+}

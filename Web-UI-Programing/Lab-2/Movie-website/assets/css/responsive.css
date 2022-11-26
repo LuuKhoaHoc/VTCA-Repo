@@ -1,0 +1,117 @@
+/*
+* PC: >= 1024px
+* Tablet: >= 740px & < 1024px
+* Mobile: <= 740px
+*/
+
+/* Break point */
+/* Tablet  */
+@media (min-width: 46.25em) and (max-width: 63.9775em) {
+  nav {
+    width: 20%;
+    max-width: 20%;
+  }
+  main {
+    width: 80%;
+    max-width: 80%;
+  }
+  main .main__content {
+    margin: 8px 40px;
+  }
+  main .main__content .main__content--child {
+    width: 180px;
+    margin: 20px 28px;
+  }
+  footer {
+    padding-bottom: 40vh;
+  }
+}
+/* Table & Mobile */
+@media (max-width: 63.937em) {
+  header {
+    height: 56px;
+  }
+  :is(header .search_bar, header .search_bar input) {
+    height: 32px;
+  }
+  header .search_bar input {
+    padding-left: 12px;
+  }
+  :is(.logo p, .sign_up) {
+    width: max-content;
+    opacity: 0.8;
+    padding: 0 16px;
+    font-size: 18px;
+  }
+  nav {
+    width: 20%;
+    max-width: 20%;
+    min-height: 100%;
+    padding-top: 52px;
+  }
+  main {
+    width: 80%;
+    max-width: 80%;
+  }
+  main .main__content {
+    margin: 8px 40px;
+  }
+  main .main__content .main__content--child {
+    width: max-content;
+    margin: 20px 30px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 46.1875em) {
+  main {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  main .main__content {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main .main__content .main__content--child {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+  }
+  main .main__content--child .image,
+  main .main__content--child img {
+    width: fit-content;
+    height: inherit;
+  }
+
+  .content .content--left .film_name {
+    font-size: 18px !important;
+  }
+  :is(.update_time, .showing, .release_date, .durations, .rating) {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 34.3125em) {
+  nav {
+    display: none;
+  }
+  main {
+    position: relative;
+    left: 10%;
+    width: max-content;
+  }
+  .sign_up {
+    display: none;
+  }
+  .nav__bar--btn {
+    display: block;
+  }
+  main .main__content {
+    width: max-content;
+    display: block;
+    margin: 0;
+  }
+}

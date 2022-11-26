@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./tailwind.css" />
+    <script
+      src="https://kit.fontawesome.com/65ca83241b.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./data.js"></script>
+    <title>Movie</title>
+  </head>
+  <body class="">
+    <div class="">
+      <header
+        class="fixed flex h-12 w-full flex-row items-center justify-between bg-black"
+      >
+        <div class="logo mx-4">
+          <p><a class="text-decor-none text-white" href="#">AOX Movies</a></p>
+        </div>
+        <div class="search_bar ml-32 mr-4 flex-grow">
+          <input
+            class="w-full rounded-sm pl-4"
+            type="search"
+            name="search"
+            id="search"
+            placeholder="Search"
+          />
+        </div>
+        <div class="sign_up mx-4 text-white">
+          <a class="text-decor-none fz-14 text-white" href="">SignUp</a>
+        </div>
+      </header>
+
+      <nav
+        class="fixed top-12 flex h-full w-1/6 flex-col items-center bg-white pt-4"
+      >
+        <!-- navigation with 3 part (separated by 1 hr & 1 br) -->
+        <ul>
+          <li
+            class="justify-baseline flex cursor-pointer flex-col items-center text-blue-400"
+          >
+            <i class="fa-solid fa-clapperboard"></i>
+            Videos
+          </li>
+
+          <br />
+          <!-- 1st part -->
+          <script>
+            navs[0].forEach((nav) => {
+              document.writeln(`
+              <li class="justify-baseline flex cursor-pointer flex-col items-center hover:text-blue-400">
+                  <i class="${nav["icon"]}"></i>
+                  ${nav["tag"]}
+                </li>  <br />
+                `);
+            });
+          </script>
+        </ul>
+        <hr style="width: 75%; margin-bottom: 20px; background: #000" />
+
+        <ul>
+          <!-- 2nd part -->
+          <script>
+            navs[1].forEach((nav) => {
+              document.writeln(`
+                <li class="flex flex-col items-center justify-baseline hover:text-blue-400 cursor-pointer ">
+                  <i class="${nav["icon"]}"></i> 
+                  ${nav["tag"]}
+                </li> <br />
+            `);
+            });
+          </script>
+        </ul>
+
+        <br />
+
+        <ul>
+          <!-- 3rd part -->
+          <script>
+            navs[2].forEach((nav) => {
+              document.writeln(`
+              <li class="flex flex-col items-center justify-baseline hover:text-blue-400 cursor-pointer">
+                  <i class="${nav["icon"]}"></i>
+                  ${nav["tag"]}
+                </li>  <br />
+            `);
+            });
+          </script>
+        </ul>
+      </nav>
+
+      <main class="float-right w-5/6 bg-gray-100 pt-12">
+        <div class="title ml-12 mt-2">
+          <h2 class="text-2xl font-bold">Movies</h2>
+        </div>
+        <!-- printing films -->
+        <div
+          class="main__content my-4 mx-auto grid w-11/12 text-sm md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
+        >
+          <script>
+            films.forEach((film) => {
+              document.writeln(`
+            <div class="card inline-block w-56 my-5 mx-6 hover:scale-105 cursor-pointer">
+              <div class="image h-[258px]">
+                <img  src="${film["img"]}" alt="" />
+              </div>
+              <div class="content w-56 inline-flex flex-row p-3 bg-white rounded-b-lg shadow-xl">
+                <div class="content--left w-32 text-left">
+                  <p class="film_name font-bold text-[13px]">${film["film_name"]}</p>
+                  <p class="update_time opacity-50 uppercase text-[9.5px]">${film["update_time"]}</p>
+                  <p class="release_date font-bold uppercase text-[9.5px]">${film["release_date"]}</p>
+                </div>
+                <div class="content--right flex-grow text-right ">
+                  <p class="rating font-bold uppercase text-[9.5px]">
+                    <span class="active">${film["rating"]}</span>
+                    <span>/10</span>
+                  </p>
+                  <p class="showing opacity-50 uppercase text-[9.5px]">${film["showing"]}</p>
+                  <p class="durations font-bold uppercase text-[9.5px]">${film["durations"]}</p>
+                </div>
+              </div>
+            </div>
+            `);
+            });
+          </script>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

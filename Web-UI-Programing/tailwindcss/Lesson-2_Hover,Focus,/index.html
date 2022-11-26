@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./build/tailwind.css" />
+    <link rel="stylesheet" href="./build/app.css" />
+    <title>Tailwind CSS</title>
+  </head>
+  <body>
+    <!-- npx tailwindcss -i css/tailwind.css -o build/tailwind.css --watch -->
+    <!-- text-[#ffa400] -->
+    <!-- 
+      sm: 640px
+      md: 768px
+      lg: 1024px
+      xl: 1280px
+
+      sm: tailwind class
+      md: tailwind class
+      lg: tailwind class
+    -->
+    <!-- <div class="group p-10 border border-red-50"> -->
+    <button
+      class="inline-block py-3 px-10 m-5 text-white bg-[#6A5AF9] rounded-xl transition-all hover:bg-black disabled:opacity-50"
+    >
+      Confirm
+    </button>
+    <svg
+      class="w-6 h-6"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M19 14l-7 7m0 0l-7-7m7 7V3"
+      ></path>
+    </svg>
+    <!-- lg:group-hover:bg-purple-400 -->
+    <input
+      type="text"
+      class="py-3 px-7 border border-[#ccc] outline-none rounded-xl m-3 lg:focus:border-[#d49012] transition-all"
+    />
+    <!-- hover:bg-red -->
+    <!-- lg:hover:bg-blue -> breakpoint:hover:class  -->
+    <!-- parent: group -->
+    <!-- child: breakpoint:group-hover:bg-red  -->
+  </body>
+</html>

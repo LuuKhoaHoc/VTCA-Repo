@@ -1,0 +1,77 @@
+/*
+* PC: >= 1024px
+* Tablet: >= 740px & < 1024px
+* Mobile: <= 740px
+*/
+
+/* Break point */
+/* Tablet  */
+@media (min-width: 46.25em) and (max-width: 63.9775em) {
+  nav {
+    width: 20%;
+    max-width: 20%;
+  }
+  main {
+    width: 80%;
+    max-width: 80%;
+  }
+  main .main__content {
+    margin: 8px 40px;
+  }
+  main .main__content .main__content--child {
+    width: 180px;
+    margin: 20px 28px;
+  }
+}
+/* Table & Mobile */
+@media (max-width: 63.937em) {
+  nav {
+    width: 20%;
+    max-width: 20%;
+    min-height: 100%;
+  }
+  main {
+    width: 80%;
+    max-width: 80%;
+  }
+  main .main__content {
+    margin: 8px 40px;
+  }
+  main .main__content .main__content--child {
+    width: 180px;
+    margin: 20px 28px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 46.1875em) {
+  main .main__content {
+    width: 50%;
+  }
+  main .main__content .main__content--child {
+    display: flex;
+    flex-direction: row;
+    margin: 20px auto 24px;
+  }
+  main .main__content--child img {
+    width: 190px !important;
+    height: inherit;
+  }
+  main .main__content--child .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 0;
+  }
+  .content .content--left .film_name {
+    font-size: 18px !important;
+  }
+  :is(.update_time, .showing, .release_date, .durations, .rating) {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 34.3125em) {
+  nav {
+    display: none;
+  }
+}

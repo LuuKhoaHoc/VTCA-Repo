@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../build/output.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Dashboard</title>
+  </head>
+  <body class="bg-[#1f2327]">
+    <div class="main">
+      <div
+        class="left-menu w-24 min-h-screen h-[1024px] bg-[#16191C] absolute top-0 left-0"
+      >
+        <div
+          before=""
+          class="user flex before:content-[attr(before)] before:absolute before:w-[10px] before:h-[10px] before:bg-[#29CB97] before:border-2 before:border-white before:rounded-full before:left-14 before:top-[35px]"
+        >
+          <img
+            class="w-10 h-10 rounded-full mx-auto mt-[35px]"
+            src="./assets/img/Bitmap.png"
+            alt="avatar"
+          />
+        </div>
+        <div
+          class="navigation h-[425px] 2xl:w-max lg:w-24 mx-auto 2xl:mt-[225px] lg:mt-[180px]"
+        >
+          <ul class="h-full w-max">
+            <li
+              class="w-24 p-6 bg-gradient-to-b from-[#679CF6] to-[#4072EE] rounded-r-md scale-[1.15]"
+            >
+              <img
+                class="mx-auto"
+                src="./assets/img/icon/Stats.png"
+                alt="stats"
+              />
+            </li>
+            <li class="w-6 my-7 pb-6 border-b-2 border-[#2C3135] mx-auto">
+              <img
+                class="mx-auto"
+                src="./assets/img/icon/Maps.png"
+                alt="Maps"
+              />
+            </li>
+            <li class="w-6 my-7 pb-6 border-b-2 border-[#2C3135] mx-auto">
+              <img
+                class="mx-auto"
+                src="./assets/img/icon/Shopping.png"
+                alt="Shopping"
+              />
+            </li>
+            <li class="w-6 my-7 pb-6 border-b-2 border-[#2C3135] mx-auto">
+              <img
+                class="mx-auto"
+                src="./assets/img/icon/Messages.png"
+                alt="Messages"
+              />
+            </li>
+            <li class="w-6 my-7 pb-6 border-b-2 border-[#2C3135] mx-auto">
+              <img
+                class="mx-auto"
+                src="./assets/img/icon/Files.png"
+                alt="Files"
+              />
+            </li>
+            <li class="w-6 my-7 pb-6 border-b-2 border-[#2C3135] mx-auto">
+              <img
+                class="mx-auto"
+                src="./assets/img/icon/Settings.png"
+                alt="Settings"
+              />
+            </li>
+          </ul>
+        </div>
+        <div
+          class="add-new w-10 h-10 rounded-full bg-[#29CB97] 2xl:mt-[235px] mt-[280px] mx-auto flex justify-center items-center opacity-80 hover:opacity-100 hover:scale-105"
+        >
+          <img src="./assets/img/icon/Fill 26.png" alt="" />
+        </div>
+      </div>
+      <div
+        class="center w-[947px] 2xl:w-[1280px] h-[1002px] absolute top-[30px] left-[144px]"
+      >
+        <div
+          class="dashboard-title w-[947px] 2xl:w-[1350px] h-[48px] flex justify-between"
+        >
+          <h1 class="h-[42px] font-normal text-4xl leading-[42px] text-white">
+            My Dashboard
+          </h1>
+          <div
+            class="filter-stats inline-flex items-center justify-center gap-[10px]"
+          >
+            <p class="font-normal text-[14px] text-[#748AA1] leading-4">
+              Filter stats
+            </p>
+            <div
+              class="filter-icon w-10 h-10 rounded-md bg-[#363C43] flex items-center justify-center"
+            >
+              <img src="./assets/img/icon/Filter Icon.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div
+          class="total-points absolute w-[946px] 2xl:w-[1350px] h-[370px] top-[78px] bg-[#292E33] rounded-lg"
+        >
+          <div
+            class="header w-[886px] h-[26px] 2xl:w-[1280px] flex justify-between items-center absolute top-[30px] left-[30px]"
+          >
+            <h2 class="text-[20px] 2xl:text-3xl text-white">Total points</h2>
+            <div class="date-range text-sm 2xl:text-lg leading-4">
+              <div class="From inline-flex items-center gap-1 mr-[9px]">
+                <span class="text-[#748AA1]">from</span>
+                <span class="text-white">August 2018</span>
+                <span
+                  ><img src="./assets/img/icon/Select Dropdown.png" alt=""
+                /></span>
+              </div>
+              <div class="To inline-flex items-center gap-1">
+                <span class="text-[#748AA1]">to</span>
+                <span class="text-white">May 2019</span>
+                <span
+                  ><img src="./assets/img/icon/Select Dropdown.png" alt=""
+                /></span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="graph absolute w-[946px] 2xl:w-[1350px] h-[251px] 2xl:h-[251px] top-[86px] bottom-[33px]"
+          >
+            <img
+              class="2xl:w-[1350px] 2xl:h-[251px]"
+              src="./assets/img/Graph.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div
+          class="active-users absolute w-[452px] 2xl:w-[640px] h-[514px] top-[488px] bg-[#292E33] rounded-lg"
+        >
+          <div
+            class="header w-[392px] h-[26px] mt-[30px] ml-[33px] inline-flex justify-between items-center"
+          >
+            <div class="title text-xl leading-[23px] text-white">
+              Active Users
+            </div>
+            <div class="range text-sm h-[19px] inline-flex items-center">
+              <span class="text-[#748AA1]">for</span>
+              <span class="ml-[5px] mr-[4px] text-white">August 2019</span>
+              <span class="w-[5px] h-[5px]"
+                ><img src="./assets/img/icon/Select Dropdown.png" alt=""
+              /></span>
+            </div>
+          </div>
+          <!-- User 1 -->
+          <div class="users w-[392px] my-[30px] ml-[30px]">
+            <div class="user inline-flex items-center gap-3">
+              <div class="avatar">
+                <img src="./assets/img/Avatar.png" alt="" />
+              </div>
+              <div class="name">
+                <p class="text-white text-sm leading-4">Elliot Møller</p>
+                <p class="text-[#748AA1] text-xs leading-[14px]">
+                  Copenhagen, Denmark
+                </p>
+              </div>
+            </div>
+            <div
+              class="more w-[13px] h-[3px] inline-flex gap-[2px] float-right mt-[19px]"
+            >
+              <div class="dot w-[3px] h-[3px] bg-[#DADADA] rounded-sm"></div>
+              <div class="dot w-[3px] h-[3px] bg-[#DADADA] rounded-sm"></div>
+              <div class="dot w-[3px] h-[3px] bg-[#DADADA] rounded-sm"></div>
+            </div>
+            <div class="progress-bar mt-3">
+              <div
+                class="w-full bg-gray-200 rounded-full h-1.5 dark:bg-gray-700"
+              >
+                <div
+                  data-tooltip-target="tooltip-default"
+                  class="bg-[#29CB97] h-1.5 rounded-full opacity-80 hover:opacity-100"
+                  style="width: 72%"
+                ></div>
+              </div>
+            </div>
+            <div
+              class="level w-[392px] h-[19px] flex justify-between items-center mt-3 text-white"
+            >
+              <p>Professional Level 15</p>
+              <p>4723 Points</p>
+            </div>
+          </div>
+          <hr class="border-[#33393F]" />
+          <!-- User 2 -->
+          <div class="users w-[392px] my-[30px] ml-[30px]">
+            <div class="user inline-flex items-center gap-3">
+              <div class="avatar">
+                <img src="./assets/img/Avatar (1).png" alt="" />
+              </div>
+              <div class="name">
+                <p class="text-white text-sm leading-4">Olivia Pedersen</p>
+                <p class="text-[#748AA1] text-xs leading-[14px]">
+                  Copenhagen, Denmark
+                </p>
+              </div>
+            </div>
+            <div
+              class="more w-[13px] h-[3px] inline-flex gap-[2px] float-right mt-[19px]"
+            >
+              <div class="dot w-[3px] h-[3px] bg-[#DADADA] rounded-sm"></div>
+              <div class="dot w-[3px] h-[3px] bg-[#DADADA] rounded-sm"></div>
+              <div class="dot w-[3px] h-[3px] bg-[#DADADA] rounded-sm"></div>
+            </div>
+            <div class="progress-bar mt-3">
+              <div
+                class="w-full bg-gray-200 rounded-full h-1.5 dark:bg-gray-700"
+              >
+                <div
+                  class="bg-[#4072EE] h-1.5 rounded-full opacity-80 hover:opacity-100"
+                  style="width: 52%"
+                ></div>
+              </div>
+            </div>
+            <div
+              class="level w-[392px] h-[19px] flex justify-between items-center mt-3 text-white"
+            >
+              <p>Professional Level 11</p>
+              <p>2339 Points</p>
+            </div>
+          </div>
+          <hr class="border-[#33393F]" />
+          <div class="users w-[392px] my-[30px] ml-[30px]">
+            <div class="user inline-flex items-center gap-3">
+              <div class="avatar">
+                <img src="./assets/img/Avatar (2).png" alt="" />
+              </div>
+              <div class="name">
+                <p class="text-white text-sm leading-4">Niklas Döring</p>
+                <p class="text-[#748AA1] text-xs leading-[14px]">
+                  Berlin, Germany
+                </p>
+              </div>
+            </div>
+            <div
+              class="more w-[13px] h-[3px] inline-flex gap-[2px] float-right mt-[19px]"
+            >
+              <div class="dot w-[3px] h-[3px] bg-[#DADADA] rounded-sm"></div>
+              <div class="dot w-[3px] h-[3px] bg-[#DADADA] rounded-sm"></div>
+              <div class="dot w-[3px] h-[3px] bg-[#DADADA] rounded-sm"></div>
+            </div>
+            <div class="progress-bar mt-3">
+              <div
+                class="w-full bg-gray-200 rounded-full h-1.5 dark:bg-gray-700"
+              >
+                <div
+                  class="bg-[#B558F6] h-1.5 rounded-full opacity-80 hover:opacity-100"
+                  style="width: 37%"
+                ></div>
+              </div>
+            </div>
+            <div
+              class="level w-[392px] h-[19px] flex justify-between items-center mt-3 text-white"
+            >
+              <p>Professional Level 6</p>
+              <p>1884 Points</p>
+            </div>
+          </div>
+          <hr class="border-[#33393F]" />
+        </div>
+        <div
+          class="top-cities absolute w-[452px] 2xl:w-[580px] h-[468px] left-[495px] 2xl:left-[700px] top-[488px] bg-[#292E33] rounded-lg"
+        >
+          <div
+            class="header w-[392px] h-[26px] mt-[30px] ml-[33px] inline-flex justify-between items-center"
+          >
+            <div class="title text-xl leading-[23px] text-white">
+              Top cities
+            </div>
+            <div class="range text-sm h-[19px] inline-flex items-center">
+              <span class="text-[#748AA1]">for</span>
+              <span class="ml-[5px] mr-[4px] text-white">September 2019</span>
+              <span class="w-[5px] h-[5px]"
+                ><img src="./assets/img/icon/Select Dropdown.png" alt=""
+              /></span>
+            </div>
+          </div>
+          <div
+            class="percentage inline-flex flex-row justify-around w-[390px] ml-[10px] mt-[31px]"
+          >
+            <p class="text-[#748AA1] text-sm leading-4">0%</p>
+            <p class="text-[#748AA1] text-sm leading-4">25%</p>
+            <p class="text-[#748AA1] text-sm leading-4">50%</p>
+            <p class="text-[#748AA1] text-sm leading-4">75%</p>
+            <p class="text-[#748AA1] text-sm leading-4">100%</p>
+          </div>
+          <div
+            style="
+              background: repeating-linear-gradient(
+                to right,
+                #33393f,
+                #33393f 1px,
+                #292e33 1px,
+                #292e33 20%
+              );
+            "
+            class="graph w-[452px] h-[167px] mt-4 border-y border-[#33393f] flex flex-col"
+          >
+            <!-- row-1 -->
+            <div class="purple mt-5 inline-flex flex-row items-baseline">
+              <div
+                class="w-[235px] h-2 rounded-r bg-[#B558F6] mr-[10px] opacity-80 hover:opacity-100"
+              ></div>
+              <span class="text-white text-sm leading-4">63%</span>
+            </div>
+            <!-- row-2 -->
+            <div class="green mt-5 inline-flex flex-row items-baseline">
+              <div
+                class="w-[168px] h-2 rounded-r bg-[#29CB97] mr-[10px] opacity-80 hover:opacity-100"
+              ></div>
+              <span class="text-white text-sm leading-4">47%</span>
+            </div>
+            <!-- row-3 -->
+            <div class="purple mt-5 inline-flex flex-row items-baseline">
+              <div
+                class="w-[190px] h-2 rounded-r bg-[#FEC400] mr-[10px] opacity-80 hover:opacity-100"
+              ></div>
+              <span class="text-white text-sm leading-4">52%</span>
+            </div>
+            <!-- row-4 -->
+            <div class="purple mt-5 inline-flex flex-row items-baseline">
+              <div
+                class="w-[298px] h-2 rounded-r bg-[#4072EE] mr-[10px] opacity-80 hover:opacity-100"
+              ></div>
+              <span class="text-white text-sm leading-4">81%</span>
+            </div>
+          </div>
+          <div class="text mt-[30px]">
+            <!-- blue -->
+            <div class="blue w-[392px] text-white text-sm ml-[30px] mb-[14px]">
+              <div
+                class="cycle w-5 h-5 rounded-full bg-[#292E33] border-[#4072EE] border-4 float-left mr-5"
+              ></div>
+              <span class="name">Copenhagen, Denmark</span>
+              <span class="percen float-right">81.57%</span>
+            </div>
+            <!-- purple -->
+            <div
+              class="purple w-[392px] text-white text-sm ml-[30px] mb-[14px]"
+            >
+              <div
+                class="cycle w-5 h-5 rounded-full bg-[#292E33] border-[#B558F6] border-4 float-left mr-5"
+              ></div>
+              <span class="name">Berlin, Germany</span>
+              <span class="percen float-right">63.25%</span>
+            </div>
+            <!-- yellow -->
+            <div
+              class="yellow w-[392px] text-white text-sm ml-[30px] mb-[14px]"
+            >
+              <div
+                class="cycle w-5 h-5 rounded-full bg-[#292E33] border-[#FEC400] border-4 float-left mr-5"
+              ></div>
+              <span class="name">Belgrade, Serbia</span>
+              <span class="percen float-right">52.95%</span>
+            </div>
+            <!-- green -->
+            <div class="green w-[392px] text-white text-sm ml-[30px] mb-[14px]">
+              <div
+                class="cycle w-5 h-5 rounded-full bg-[#292E33] border-[#29CB97] border-4 float-left mr-5"
+              ></div>
+              <span class="name">Paris, France</span>
+              <span class="percen float-right">47.29%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="right w-[343px] 2xl:w-[400px] h-[1024px] absolute right-0 top-0 bg-[#292E33]"
+      >
+        <div
+          class="header inline-flex w-[267px] m-[30px] items-center justify-between"
+        >
+          <p class="text-4xl text-white">Personal</p>
+          <p class="text-sm text-[#748AA1]">Learn more</p>
+        </div>
+        <div class="my-card w-[320px] mr-4 mt-6 scale-125">
+          <img class="w-full" src="./assets/img/My Card.png" alt="" />
+        </div>
+        <div class="calendar mb-[30px]">
+          <div
+            class="header w-[282px] m-[30px] text-white flex justify-between"
+          >
+            <span class="text-xl">Calendar</span>
+            <span class="text-sm inline-flex items-center gap-1"
+              >September 2019
+              <span>
+                <img
+                  src="./assets/img/icon/Select Dropdown.png"
+                  alt=""
+                /> </span
+            ></span>
+          </div>
+          <div
+            class="days w-[266px] grid grid-cols-7 justify-items-center mx-auto gap-x-2 text-[#B8C5D3]"
+          >
+            <span>S</span>
+            <span>M</span>
+            <span>T</span>
+            <span>W</span>
+            <span>T</span>
+            <span>F</span>
+            <span>S</span>
+          </div>
+          <div class="calendars">
+            <img class="mx-auto" src="./assets/img/Calendar.png" alt="" />
+          </div>
+        </div>
+        <hr class="border-[#363C43]" />
+        <div class="popular-topics">
+          <div
+            class="header w-[282px] m-[30px] text-white flex justify-between"
+          >
+            <span class="text-xl">Popular Topics</span>
+            <span class="text-sm inline-flex items-center gap-1 text-[#748AA1]">
+              View all</span
+            >
+          </div>
+          <div class="listOfTopics">
+            <!-- 1 -->
+            <div class="topics flex gap-2 w-[280px] ml-[30px] mt-[15px]">
+              <div class="iconn">
+                <img src="./assets/img/icon/Icon.png" alt="" />
+              </div>
+              <div class="topics--text flex-grow">
+                <p class="text-white text-sm">Basketball</p>
+                <p class="text-xs text-[#748AA1]">1423 Questions</p>
+              </div>
+              <div
+                class="more w-[13px] h-[3px] inline-flex gap-[2px] float-right mt-[19px]"
+              >
+                <div class="dot w-[3px] h-[3px] bg-[#DADADA] rounded-sm"></div>
+                <div class="dot w-[3px] h-[3px] bg-[#DADADA] rounded-sm"></div>
+                <div class="dot w-[3px] h-[3px] bg-[#DADADA] rounded-sm"></div>
+              </div>
+            </div>
+            <!-- 2 -->
+            <div class="topics flex gap-2 w-[280px] ml-[30px] mt-[15px]">
+              <div class="iconn">
+                <img src="./assets/img/icon/Icon (1).png" alt="" />
+              </div>
+              <div class="topics--text flex-grow">
+                <p class="text-white text-sm">Smartwatch</p>
+                <p class="text-xs text-[#748AA1]">1299 Questions</p>
+              </div>
+              <div
+                class="more w-[13px] h-[3px] inline-flex gap-[2px] float-right mt-[19px]"
+              >
+                <div class="dot w-[3px] h-[3px] bg-[#DADADA] rounded-sm"></div>
+                <div class="dot w-[3px] h-[3px] bg-[#DADADA] rounded-sm"></div>
+                <div class="dot w-[3px] h-[3px] bg-[#DADADA] rounded-sm"></div>
+              </div>
+            </div>
+            <!-- 3 -->
+            <div class="topics flex gap-2 w-[280px] ml-[30px] mt-[15px]">
+              <div class="iconn">
+                <img src="./assets/img/icon/Icon (2).png" alt="" />
+              </div>
+              <div class="topics--text flex-grow">
+                <p class="text-white text-sm">Games</p>
+                <p class="text-xs text-[#748AA1]">983 Questions</p>
+              </div>
+              <div
+                class="more w-[13px] h-[3px] inline-flex gap-[2px] float-right mt-[19px]"
+              >
+                <div class="dot w-[3px] h-[3px] bg-[#DADADA] rounded-sm"></div>
+                <div class="dot w-[3px] h-[3px] bg-[#DADADA] rounded-sm"></div>
+                <div class="dot w-[3px] h-[3px] bg-[#DADADA] rounded-sm"></div>
+              </div>
+            </div>
+            <!-- 4 -->
+            <div class="topics flex gap-2 w-[280px] ml-[30px] mt-[15px]">
+              <div class="iconn">
+                <img src="./assets/img/icon/Icon (3).png" alt="" />
+              </div>
+              <div class="topics--text flex-grow">
+                <p class="text-white text-sm">Photography</p>
+                <p class="text-xs text-[#748AA1]">788 Questions</p>
+              </div>
+              <div
+                class="more w-[13px] h-[3px] inline-flex gap-[2px] float-right mt-[19px]"
+              >
+                <div class="dot w-[3px] h-[3px] bg-[#DADADA] rounded-sm"></div>
+                <div class="dot w-[3px] h-[3px] bg-[#DADADA] rounded-sm"></div>
+                <div class="dot w-[3px] h-[3px] bg-[#DADADA] rounded-sm"></div>
+              </div>
+            </div>
+            <!-- 4 -->
+            <div class="topics flex gap-2 w-[280px] ml-[30px] mt-[15px]">
+              <div class="iconn">
+                <img src="./assets/img/icon/Icon (4).png" alt="" />
+              </div>
+              <div class="topics--text flex-grow">
+                <p class="text-white text-sm">Finance</p>
+                <p class="text-xs text-[#748AA1]">632 Questions</p>
+              </div>
+              <div
+                class="more w-[13px] h-[3px] inline-flex gap-[2px] float-right mt-[19px]"
+              >
+                <div class="dot w-[3px] h-[3px] bg-[#DADADA] rounded-sm"></div>
+                <div class="dot w-[3px] h-[3px] bg-[#DADADA] rounded-sm"></div>
+                <div class="dot w-[3px] h-[3px] bg-[#DADADA] rounded-sm"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
